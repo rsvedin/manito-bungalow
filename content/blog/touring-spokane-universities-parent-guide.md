@@ -2,7 +2,7 @@
 title: "Visiting Spokane Universities — A Parent's Guide to Campus Tours"
 date: "2025-09-15"
 excerpt: "Planning campus visits to Gonzaga, Whitworth, EWU or WSU? Stay at Manito Bungalow with the whole family. A parent's guide to touring Spokane universities."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/gonzaga-university-entrance.jpg"
 tags: ["Spokane", "Family", "Travel Tips", "Events"]
 ---
 
