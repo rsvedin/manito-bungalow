@@ -1,6 +1,6 @@
 ---
 title: "Free Summer Swimming in Spokane — A Family Pool Guide"
-date: "2026-01-20"
+date: "2025-06-14"
 excerpt: "Spokane offers free public swimming at 6 city pools all summer. Get your free SplashPass and enjoy. A family guide from Manito Bungalow on the South Hill."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---

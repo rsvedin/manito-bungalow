@@ -1,6 +1,6 @@
 ---
 title: "A Guide to Spokane's Best Annual Events"
-date: "2026-03-06"
+date: "2023-10-05"
 excerpt: "From Bloomsday to Pig Out in the Park, Spokane's event calendar is packed. Here's what to plan your trip around."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/fd88d08c.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---

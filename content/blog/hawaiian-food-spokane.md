@@ -1,6 +1,6 @@
 ---
 title: "Best Hawaiian Food in Spokane — Aloha Island Grill"
-date: "2026-01-14"
+date: "2024-11-18"
 excerpt: "Craving Hawaiian food in Spokane? Aloha Island Grill serves authentic plate lunches, poke bowls & island favorites. A local's guide from Manito Bungalow."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -21,6 +21,17 @@ Aloha Island Grill serves the kind of Hawaiian comfort food that transports you.
 - **Spam Musubi** — The island classic. If you know, you know.
 
 ## Two Locations
+
+
+
+## See Them on Instagram
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/explore/locations/559205337572298/aloha-island-grill/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;"><div style="padding:16px;"><a href="https://www.instagram.com/explore/locations/559205337572298/aloha-island-grill/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this post on Instagram</a></div></blockquote>
+
+## Follow Them
+
+- **Facebook:** [Aloha Island Grill](https://www.facebook.com/alohaiceland/)
+- **Website:** [eataloha.com](https://www.eataloha.com/)
 
 **Address:** 1724 N Monroe St, Spokane, WA 99205
 **Phone:** [(509) 413-2029](tel:+15094132029)

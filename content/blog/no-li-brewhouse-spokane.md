@@ -1,6 +1,6 @@
 ---
 title: "No-Li Brewhouse — Spokane's Flagship Brewery on the River"
-date: "2026-01-12"
+date: "2024-09-06"
 excerpt: "No-Li Brewhouse sits on the Spokane River with award-winning craft beer and a stunning patio. 12 minutes from Manito Bungalow. Spokane's flagship brewery."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -24,6 +24,17 @@ This is what makes No-Li truly special. The riverfront patio is one of the best 
 ## The Food
 
 No-Li's food menu goes well beyond typical brewery fare. Expect creative pub food with quality ingredients that pair well with the beer. The kitchen takes the food as seriously as the brewers take the beer.
+
+
+
+## See Them on Instagram
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIutBtJPw3J/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;"><div style="padding:16px;"><a href="https://www.instagram.com/p/DIutBtJPw3J/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this post on Instagram</a></div></blockquote>
+
+## Follow Them
+
+- **Instagram:** [@nolibrewhouse](https://www.instagram.com/nolibrewhouse/)
+- **Facebook:** [No-Li Brewhouse](https://www.facebook.com/nolibrewhouse/)
 
 **Address:** 1003 E Trent Ave #170, Spokane, WA 99202
 **Phone:** [(509) 242-2739](tel:+15092422739)

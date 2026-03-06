@@ -1,6 +1,6 @@
 ---
 title: "Winter in Spokane — Why It's the Perfect Time to Visit"
-date: "2026-01-10"
+date: "2025-01-15"
 excerpt: "Spokane winters offer skiing at Mt Spokane, ice skating at Riverfront Park, cozy brewpubs & more. Mid-term rentals available at Manito Bungalow up to 6 months."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The Best Brewpubs in Spokane — A Local's Guide from South Hill"
-date: "2026-02-09"
+date: "2024-05-08"
 excerpt: "Discover the best brewpubs in Spokane including No-Li, Lumberbeard, Brick West, Perry Street & more. Trivia nights, food menus, and distance from Manito Bungalow."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -68,5 +68,11 @@ The heart and soul of the Perry District. Perry Street Brewing is the neighborho
 Many of Spokane's brewpubs host weekly trivia nights — a great way to spend an evening. Check with each brewery for their current schedule, as trivia nights tend to rotate seasonally. Lumberbeard and Perry Street Brewing are both known for hosting popular weekly events.
 
 All of these breweries are an easy drive — or rideshare — from [Manito Bungalow](/). After a day exploring [Manito Park](/blog/manito-park-guide) or [hiking the trails](/blog/best-hiking-trails-spokane), there's no better way to end the day than with a Spokane craft beer.
+
+
+
+## Follow Your Favorites
+
+- [@lumberbeard](https://www.instagram.com/lumberbeard/) · [@nolibrewhouse](https://www.instagram.com/nolibrewhouse/) · [@perrystreetbrew](https://www.instagram.com/perrystreetbrew/) · [@brickwestbeer](https://www.instagram.com/brickwestbeer/) · [@whistlepunkbeer](https://www.instagram.com/whistlepunkbeer/) · [@uprisebeer](https://www.instagram.com/uprisebeer/)
 
 **Planning a Spokane brewery tour?** [Book Manito Bungalow](https://www.vrbo.com/3803640) as your home base — centrally located on the South Hill with easy access to every brewery in town.

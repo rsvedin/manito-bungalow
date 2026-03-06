@@ -1,6 +1,6 @@
 ---
 title: "Whistle Punk Brewing — Spokane's Best-Kept Beer Secret"
-date: "2024-07-14"
+date: "2024-07-19"
 excerpt: "Whistle Punk Brewing is a father-son brewery in downtown Spokane's Railroad Alley. Traditional lagers, exceptional quality, and zero pretension. A beer lover's brewery."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -20,6 +20,12 @@ If you're the kind of beer drinker who appreciates subtlety over spectacle, Whis
 ## The Taproom
 
 The original taproom is in Railroad Alley in downtown Spokane — a cozy, no-frills space that feels more like a neighborhood hangout than a polished brewery destination. That's by design. You come here for the beer and the company, and both deliver every time.
+
+
+
+## See Them on Instagram
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/whistlepunkbeer/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;"><div style="padding:16px;"><a href="https://www.instagram.com/whistlepunkbeer/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this post on Instagram</a></div></blockquote>
 
 ## Follow Them
 

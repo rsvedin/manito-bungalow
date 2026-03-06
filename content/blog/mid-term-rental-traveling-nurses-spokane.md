@@ -1,6 +1,6 @@
 ---
 title: "Spokane Mid-Term Rental for Traveling Nurses — Up to 6 Months"
-date: "2026-02-13"
+date: "2025-02-20"
 excerpt: "Traveling nurse in Spokane? Manito Bungalow offers mid-term rentals up to 6 months, minutes from Sacred Heart & Deaconess hospitals. Fully furnished, pet-friendly."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---

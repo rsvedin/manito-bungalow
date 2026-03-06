@@ -1,6 +1,6 @@
 ---
 title: "Wooden City — Spokane's Most Exciting Restaurant"
-date: "2026-01-24"
+date: "2024-10-30"
 excerpt: "Wooden City in downtown Spokane serves inventive New American cuisine with wood-fired pizzas and gourmet burgers. 10 minutes from Manito Bungalow. Reserve ahead."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -26,6 +26,17 @@ The restaurant's interior is warm and inviting, with the kind of industrial-meet
 ## Reservations Recommended
 
 Wooden City is popular — especially on weekends. We strongly recommend booking ahead through [Resy](https://resy.com/cities/spokane-wa/venues/wooden-city-spokane). Walk-ins are sometimes available at the bar and select tables, but don't count on it for a Friday night.
+
+
+
+## See Them on Instagram
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/woodencityspokane/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;"><div style="padding:16px;"><a href="https://www.instagram.com/woodencityspokane/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this post on Instagram</a></div></blockquote>
+
+## Follow Them
+
+- **Instagram:** [@woodencityspokane](https://www.instagram.com/woodencityspokane/)
+- **Facebook:** [Wooden City](https://www.facebook.com/woodencityspokane/)
 
 **Address:** 821 W Riverside Ave, Spokane, WA 99201
 **Phone:** [(509) 822-7194](tel:+15098227194)

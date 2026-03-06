@@ -1,6 +1,6 @@
 ---
 title: "Rüt — Spokane's Best Vegan Restaurant (A Local's Recommendation)"
-date: "2026-02-05"
+date: "2024-10-02"
 excerpt: "Rüt is Spokane's premier plant-based restaurant serving creative vegan dishes. Located minutes from Manito Bungalow on the South Hill. A must-visit."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -22,6 +22,17 @@ The space is bright, welcoming, and has that effortless Pacific Northwest cool t
 ## Why We Love It
 
 We're not vegan ourselves, but Rüt has become one of our go-to restaurants in Spokane. That says everything. When a restaurant can make committed omnivores choose it over a steakhouse, you know the food is doing something right. It's the kind of place that expands what you think is possible with plant-based cooking.
+
+
+
+## See Them on Instagram
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/rutspokane/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;"><div style="padding:16px;"><a href="https://www.instagram.com/rutspokane/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this post on Instagram</a></div></blockquote>
+
+## Follow Them
+
+- **Instagram:** [@rutspokane](https://www.instagram.com/rutspokane/)
+- **Facebook:** [Rüt Bar & Kitchen](https://www.facebook.com/rutspokane/)
 
 **Address:** 403 W Main Ave, Spokane, WA 99201
 **Phone:** [(509) 455-8440](tel:+15094558440)

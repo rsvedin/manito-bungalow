@@ -1,6 +1,6 @@
 ---
 title: "A Brief History of Spokane — From Falls to Expo '74"
-date: "2024-03-18"
+date: "2023-10-20"
 excerpt: "Explore Spokane's history from the Spokane Tribe and fur traders to the Great Fire of 1889, Expo '74, and the vibrant city it is today. A guide for curious visitors."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
