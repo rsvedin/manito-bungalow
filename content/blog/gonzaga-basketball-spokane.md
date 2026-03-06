@@ -31,11 +31,11 @@ The Kennel is one of the most intimidating venues in college basketball. With a 
 - **Instagram:** [@zagmbb](https://www.instagram.com/zagmbb/)
 - **Facebook:** [Gonzaga Athletics](https://www.facebook.com/gonzagaathletics/)
 
-**Address:** 801 N Cincinnati St, Spokane, WA 99258
-**Capacity:** 6,000
-**Distance from Manito Bungalow:** ~4 miles (12-15 minutes)
-**Tickets:** [gozags.com](https://gozags.com/sports/mens-basketball)
-**Conference:** West Coast Conference (final season; joining Pac-12 July 2026)
+- **Address:** 801 N Cincinnati St, Spokane, WA 99258
+- **Capacity:** 6,000
+- **Distance from Manito Bungalow:** ~4 miles (12-15 minutes)
+- **Tickets:** [gozags.com](https://gozags.com/sports/mens-basketball)
+- **Conference:** West Coast Conference (final season; joining Pac-12 July 2026)
 
 ## Game Day in Spokane
 
