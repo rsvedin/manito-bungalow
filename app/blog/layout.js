@@ -12,6 +12,7 @@ export default function BlogLayout({ children }) {
             <div className="footer-legal">
               <a href="/">Home</a>
               <a href="/blog">Blog</a>
+              <a href="/about">About</a>
               <a href="/#book">Book Now</a>
             </div>
           </div>

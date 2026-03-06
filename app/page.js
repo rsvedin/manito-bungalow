@@ -231,6 +231,7 @@ export default function Home() {
                 <li><a href="#neighborhood">The Neighborhood</a></li>
                 <li><a href="#book">Book on VRBO</a></li>
                 <li><a href="#book">Book on Airbnb</a></li>
+                <li><a href="/about">About Us</a></li>
               </ul>
             </div>
             <div>

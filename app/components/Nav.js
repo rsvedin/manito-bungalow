@@ -79,6 +79,7 @@ export default function Nav() {
               ))}
             </div>
           </li>
+          <li><Link href="/about">About</Link></li>
           <li><a href="/#book" className="nav-book">Book Now</a></li>
         </ul>
         <a href="/#book" className="nav-mobile-book">Book Now</a>
@@ -104,6 +105,7 @@ export default function Nav() {
         {links.map(l => (
           <a key={l.href} href={l.href} className="mn-link" onClick={closeNav}>{l.label}</a>
         ))}
+        <Link href="/about" className="mn-link" onClick={closeNav}>About</Link>
         <div className="mn-blog-section">
           <Link href="/blog" className="mn-link" onClick={closeNav}>Blog</Link>
           <div className="mn-blog-cats">
