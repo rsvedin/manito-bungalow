@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { getAllPosts } from '../../lib/blog';
 import Nav from '../components/Nav';
 import BlogGrid from '../components/BlogGrid';
@@ -21,7 +22,9 @@ export default function BlogIndex() {
             <h1 className="section-h2" style={{ textAlign: 'center' }}>Stories &amp; <em>Guides</em></h1>
             <p className="blog-header-desc">Tips for your stay, neighborhood favorites, and everything Spokane.</p>
           </div>
-          <BlogGrid posts={posts} />
+          <Suspense fallback={null}>
+            <BlogGrid posts={posts} />
+          </Suspense>
         </div>
       </main>
 

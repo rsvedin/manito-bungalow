@@ -33,7 +33,7 @@ export default async function BlogPost({ params }) {
             {post.tags && post.tags.length > 0 && (
               <div className="blog-article-tags">
                 {post.tags.map(tag => (
-                  <span key={tag} className="blog-tag">#{tag}</span>
+                  <Link key={tag} href={`/blog?tag=${encodeURIComponent(tag)}`} className="blog-tag clickable">#{tag}</Link>
                 ))}
               </div>
             )}
