@@ -63,7 +63,7 @@ describe('Page structure', () => {
   });
 
   test('all sections have ids', () => {
-    const expectedIds = ['hero', 'why', 'space', 'neighborhood', 'restaurants', 'events', 'book'];
+    const expectedIds = ['hero', 'why', 'space', 'gallery', 'neighborhood', 'restaurants', 'events', 'book'];
     expectedIds.forEach(id => {
       expect(doc.getElementById(id)).not.toBeNull();
     });
@@ -98,8 +98,8 @@ describe('Accessibility', () => {
     expect(mobileNav.getAttribute('aria-hidden')).toBe('true');
   });
 
-  test('all images have alt attributes', () => {
-    const images = doc.querySelectorAll('img');
+  test('all content images have alt attributes', () => {
+    const images = doc.querySelectorAll('img:not(#lightbox-img)');
     images.forEach(img => {
       expect(img.hasAttribute('alt')).toBe(true);
       expect(img.getAttribute('alt').length).toBeGreaterThan(0);
@@ -226,9 +226,10 @@ describe('Booking widget', () => {
 describe('Navigation', () => {
   test('has all nav links', () => {
     const navLinks = doc.querySelectorAll('.nav-links a');
-    expect(navLinks.length).toBe(5);
+    expect(navLinks.length).toBe(6);
     const hrefs = Array.from(navLinks).map(a => a.getAttribute('href'));
     expect(hrefs).toContain('#space');
+    expect(hrefs).toContain('#gallery');
     expect(hrefs).toContain('#neighborhood');
     expect(hrefs).toContain('#restaurants');
     expect(hrefs).toContain('#events');
@@ -237,7 +238,7 @@ describe('Navigation', () => {
 
   test('mobile nav has matching links', () => {
     const mobileLinks = doc.querySelectorAll('#mobile-nav a');
-    expect(mobileLinks.length).toBe(5);
+    expect(mobileLinks.length).toBe(6);
   });
 
   test('Book Now button exists in nav', () => {
@@ -306,5 +307,92 @@ describe('Content integrity', () => {
   test('contact email is present', () => {
     const mailto = doc.querySelector('a[href="mailto:rsvedin@gmail.com"]');
     expect(mailto).not.toBeNull();
+  });
+});
+
+// ── GALLERY & LIGHTBOX ─────────────────────────────────
+
+describe('Gallery', () => {
+  test('gallery section exists', () => {
+    const gallery = doc.getElementById('gallery');
+    expect(gallery).not.toBeNull();
+  });
+
+  test('has gallery grid with items', () => {
+    const items = doc.querySelectorAll('.gallery-item');
+    expect(items.length).toBeGreaterThanOrEqual(5);
+  });
+
+  test('has a featured gallery item', () => {
+    const featured = doc.querySelector('.gallery-item.featured');
+    expect(featured).not.toBeNull();
+  });
+
+  test('gallery items have data-lightbox attributes', () => {
+    const items = doc.querySelectorAll('.gallery-item[data-lightbox]');
+    expect(items.length).toBeGreaterThanOrEqual(5);
+  });
+
+  test('gallery images have descriptive alt text', () => {
+    const imgs = doc.querySelectorAll('.gallery-item img');
+    imgs.forEach(img => {
+      expect(img.getAttribute('alt').length).toBeGreaterThan(10);
+    });
+  });
+
+  test('gallery images use lazy loading', () => {
+    const imgs = doc.querySelectorAll('.gallery-item img');
+    imgs.forEach(img => {
+      expect(img.getAttribute('loading')).toBe('lazy');
+    });
+  });
+
+  test('photo strip items are clickable (have cursor pointer)', () => {
+    const css = Array.from(doc.querySelectorAll('style')).map(s => s.textContent).join('');
+    expect(css).toContain('.photo-strip-item');
+    expect(css).toContain('cursor: pointer');
+  });
+});
+
+describe('Lightbox', () => {
+  test('lightbox element exists', () => {
+    const lb = doc.getElementById('lightbox');
+    expect(lb).not.toBeNull();
+  });
+
+  test('lightbox has role="dialog"', () => {
+    const lb = doc.getElementById('lightbox');
+    expect(lb.getAttribute('role')).toBe('dialog');
+  });
+
+  test('lightbox starts hidden', () => {
+    const lb = doc.getElementById('lightbox');
+    expect(lb.getAttribute('aria-hidden')).toBe('true');
+    expect(lb.classList.contains('open')).toBe(false);
+  });
+
+  test('lightbox has close button with aria-label', () => {
+    const close = doc.querySelector('.lightbox-close');
+    expect(close).not.toBeNull();
+    expect(close.getAttribute('aria-label')).toBeTruthy();
+  });
+
+  test('lightbox has prev/next navigation', () => {
+    const prev = doc.querySelector('.lightbox-prev');
+    const next = doc.querySelector('.lightbox-next');
+    expect(prev).not.toBeNull();
+    expect(next).not.toBeNull();
+    expect(prev.getAttribute('aria-label')).toBeTruthy();
+    expect(next.getAttribute('aria-label')).toBeTruthy();
+  });
+
+  test('lightbox has image element', () => {
+    const img = doc.getElementById('lightbox-img');
+    expect(img).not.toBeNull();
+  });
+
+  test('lightbox has counter element', () => {
+    const counter = doc.getElementById('lightbox-counter');
+    expect(counter).not.toBeNull();
   });
 });
