@@ -1,5 +1,6 @@
 import { getAllPosts } from '../../lib/blog';
 import Nav from '../components/Nav';
+import BlogGrid from '../components/BlogGrid';
 import Link from 'next/link';
 
 export const metadata = {
@@ -20,31 +21,7 @@ export default function BlogIndex() {
             <h1 className="section-h2" style={{ textAlign: 'center' }}>Stories &amp; <em>Guides</em></h1>
             <p className="blog-header-desc">Tips for your stay, neighborhood favorites, and everything Spokane.</p>
           </div>
-          <div className="blog-grid">
-            {posts.map(post => (
-              <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card">
-                {post.coverImage && (
-                  <div className="blog-card-img">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={post.coverImage} alt="" loading="lazy" />
-                  </div>
-                )}
-                <div className="blog-card-body">
-                  <time className="blog-card-date">{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
-                  <h2 className="blog-card-title">{post.title}</h2>
-                  {post.excerpt && <p className="blog-card-excerpt">{post.excerpt}</p>}
-                  {post.tags && post.tags.length > 0 && (
-                    <div className="blog-card-tags">
-                      {post.tags.map(tag => (
-                        <span key={tag} className="blog-tag">#{tag}</span>
-                      ))}
-                    </div>
-                  )}
-                  <span className="blog-card-link">Read more</span>
-                </div>
-              </Link>
-            ))}
-          </div>
+          <BlogGrid posts={posts} />
         </div>
       </main>
 
