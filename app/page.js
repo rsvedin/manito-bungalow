@@ -243,6 +243,16 @@ export default function Home() {
               </ul>
             </div>
             <div>
+              <div className="footer-col-title">Blog</div>
+              <ul className="footer-links">
+                <li><a href="/blog">All Posts</a></li>
+                <li><a href="/blog/spokane-guide">Spokane Guide</a></li>
+                <li><a href="/blog/travel-tips">Travel Tips</a></li>
+                <li><a href="/blog/things-to-do">Things to Do</a></li>
+                <li><a href="/blog/property-updates">Property Updates</a></li>
+              </ul>
+            </div>
+            <div>
               <div className="footer-col-title">Connect</div>
               <ul className="footer-links">
                 <li><a href="https://www.instagram.com/manitobungalow/" target="_blank" rel="noopener noreferrer">@manitobungalow</a></li>
