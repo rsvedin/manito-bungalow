@@ -312,3 +312,372 @@ section { padding: 100px 0; }
 @media (max-width: 1024px) {
   .blog-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ══════════════════════════════════════════════════════
+   GUIDEBOOK PAGES (/guide and /welcome)
+   ══════════════════════════════════════════════════════ */
+
+/* ── GUIDEBOOK NAV ─────────────────────────────────── */
+.gb-page { background: var(--cream); min-height: 100vh; }
+
+.gb-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--ink); border-bottom: 1px solid rgba(196,168,130,0.15);
+}
+.gb-nav-inner {
+  max-width: 1220px; margin: 0 auto;
+  display: flex; align-items: center; gap: 24px;
+  padding: 0 32px; height: 64px;
+}
+.gb-nav-logo {
+  font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 500;
+  color: var(--cream); text-decoration: none; white-space: nowrap;
+  display: flex; align-items: baseline; gap: 12px;
+}
+.gb-nav-sub {
+  font-family: 'Jost', sans-serif; font-size: 10px; font-weight: 500;
+  letter-spacing: 0.18em; text-transform: uppercase; color: var(--sand);
+}
+.gb-nav-links {
+  display: flex; gap: 4px; margin-left: auto;
+  list-style: none; flex-wrap: wrap; justify-content: flex-end;
+}
+.gb-nav-link {
+  background: none; border: none; cursor: pointer;
+  font-family: 'Jost', sans-serif; font-size: 11px; font-weight: 500;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--text-on-dark-muted); padding: 6px 12px;
+  transition: color 0.2s, background 0.2s; white-space: nowrap;
+}
+.gb-nav-link:hover { color: var(--cream); }
+.gb-nav-link.active {
+  color: var(--ink); background: var(--sand); font-weight: 600;
+}
+.gb-nav-toggle {
+  display: none; flex-direction: column; gap: 4px;
+  background: none; border: none; cursor: pointer; padding: 8px;
+  margin-left: auto;
+}
+.gb-nav-toggle span {
+  display: block; width: 20px; height: 1.5px; background: var(--cream);
+  transition: transform 0.3s, opacity 0.3s;
+}
+.gb-nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(4px, 4px); }
+.gb-nav-toggle.open span:nth-child(2) { opacity: 0; }
+.gb-nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(4px, -4px); }
+
+/* ── GUIDEBOOK HERO ────────────────────────────────── */
+.gb-hero {
+  position: relative; min-height: 340px;
+  display: flex; align-items: flex-end; padding: 48px 0;
+  overflow: hidden;
+}
+.gb-hero-bg {
+  position: absolute; inset: 0;
+  background-size: cover; background-position: center;
+}
+.gb-hero-content {
+  position: relative; z-index: 2;
+  max-width: 1220px; margin: 0 auto; padding: 0 32px; width: 100%;
+}
+.gb-hero-eyebrow {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.22em;
+  text-transform: uppercase; color: var(--sand); margin-bottom: 14px;
+}
+.gb-hero-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(32px, 5vw, 56px); font-weight: 400;
+  line-height: 1.1; color: var(--cream); margin-bottom: 12px;
+}
+.gb-hero-title em { font-style: italic; font-weight: 300; }
+.gb-hero-sub {
+  font-size: 15px; line-height: 1.7; color: var(--text-on-dark);
+  max-width: 440px;
+}
+
+/* ── GUIDEBOOK SECTIONS ────────────────────────────── */
+.gb-main { }
+.gb-section { padding: 56px 0; }
+.gb-section-alt { background: var(--cream-dark); }
+.gb-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+.gb-section-icon { font-size: 32px; margin-bottom: 8px; }
+.gb-section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(28px, 3.5vw, 38px); font-weight: 400;
+  color: var(--text-dark); margin-bottom: 24px; line-height: 1.15;
+}
+.gb-section-intro {
+  font-size: 15px; line-height: 1.8; color: var(--text-mid);
+  margin-bottom: 28px;
+}
+.gb-subheading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px; font-weight: 500; color: var(--text-dark);
+  margin: 36px 0 16px;
+}
+
+/* ── GUIDEBOOK CARDS ───────────────────────────────── */
+.gb-card {
+  background: #fff; border: 1px solid rgba(139,104,64,0.12);
+  padding: 24px 28px; margin-bottom: 20px;
+}
+.gb-card p { font-size: 15px; line-height: 1.8; color: var(--text-mid); margin-bottom: 12px; }
+.gb-card p:last-child { margin-bottom: 0; }
+.gb-card-note { background: rgba(196,168,130,0.08); border-color: rgba(196,168,130,0.25); }
+.gb-card-urgent {
+  background: var(--ink); border-color: var(--ink);
+}
+.gb-card-urgent p { color: var(--cream); }
+
+/* ── DETAIL ROWS ───────────────────────────────────── */
+.gb-detail-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px 0; border-bottom: 1px solid rgba(139,104,64,0.1);
+}
+.gb-detail-row:last-child { border-bottom: none; }
+.gb-detail-label {
+  font-size: 13px; font-weight: 500; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--text-light);
+}
+.gb-detail-value {
+  font-size: 16px; font-weight: 500; color: var(--text-dark);
+  text-align: right;
+}
+
+/* ── CONTACT ROW ───────────────────────────────────── */
+.gb-contact-row {
+  display: flex; flex-wrap: wrap; gap: 20px;
+  margin-top: 20px; padding-top: 20px;
+  border-top: 1px solid rgba(139,104,64,0.12);
+}
+.gb-contact-item { flex: 1; min-width: 140px; }
+.gb-contact-label {
+  display: block; font-size: 10px; font-weight: 600;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--text-light); margin-bottom: 4px;
+}
+.gb-contact-value { font-size: 15px; color: var(--text-dark); font-weight: 500; }
+.gb-contact-link { color: #7A5C30; text-decoration: none; }
+.gb-contact-link:hover { text-decoration: underline; }
+
+/* ── NUMBERED STEPS ────────────────────────────────── */
+.gb-steps { margin-bottom: 24px; }
+.gb-step {
+  display: flex; align-items: flex-start; gap: 16px;
+  padding: 16px 0; border-bottom: 1px solid rgba(139,104,64,0.08);
+}
+.gb-step:last-child { border-bottom: none; }
+.gb-step-num {
+  flex-shrink: 0; width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--ink); color: var(--sand);
+  font-family: 'Cormorant Garamond', serif; font-size: 16px; font-weight: 500;
+  border-radius: 50%;
+}
+.gb-step-text { font-size: 15px; line-height: 1.7; color: var(--text-mid); padding-top: 4px; }
+.gb-step-text strong { color: var(--text-dark); font-weight: 600; }
+
+/* ── CHECKLIST ─────────────────────────────────────── */
+.gb-checklist { margin-bottom: 20px; }
+.gb-check-item {
+  display: flex; align-items: flex-start; gap: 14px;
+  padding: 12px 0; border-bottom: 1px solid rgba(139,104,64,0.08);
+  cursor: pointer; font-size: 15px; line-height: 1.7; color: var(--text-mid);
+}
+.gb-check-item:last-child { border-bottom: none; }
+.gb-checkbox {
+  flex-shrink: 0; width: 20px; height: 20px; margin-top: 3px;
+  accent-color: #7A5C30; cursor: pointer;
+}
+
+/* ── ROOM GRID ─────────────────────────────────────── */
+.gb-room-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 8px; }
+.gb-room-card {
+  background: #fff; border: 1px solid rgba(139,104,64,0.12);
+  padding: 24px;
+}
+.gb-room-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.gb-room-icon { font-size: 24px; }
+.gb-room-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px; font-weight: 500; color: var(--text-dark);
+}
+.gb-room-details {
+  list-style: none; padding: 0;
+}
+.gb-room-details li {
+  font-size: 13.5px; line-height: 1.7; color: var(--text-mid);
+  padding: 4px 0 4px 16px; position: relative;
+}
+.gb-room-details li::before {
+  content: ''; position: absolute; left: 0; top: 12px;
+  width: 4px; height: 4px; border-radius: 50%; background: var(--sand);
+}
+
+/* ── RULES GRID ────────────────────────────────────── */
+.gb-rules-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.gb-rule {
+  background: #fff; border: 1px solid rgba(139,104,64,0.12);
+  padding: 24px; display: flex; gap: 14px; align-items: flex-start;
+}
+.gb-rule-icon { font-size: 24px; flex-shrink: 0; }
+.gb-rule-title { display: block; font-size: 15px; color: var(--text-dark); margin-bottom: 4px; }
+.gb-rule-desc { font-size: 13.5px; line-height: 1.7; color: var(--text-mid); margin: 0; }
+
+/* ── PLACES / NEIGHBORHOOD ─────────────────────────── */
+.gb-places-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px; }
+.gb-place-card {
+  background: #fff; border: 1px solid rgba(139,104,64,0.12);
+  padding: 24px; text-decoration: none; transition: border-color 0.2s, box-shadow 0.2s;
+}
+.gb-place-card:hover { border-color: var(--sand); box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+.gb-place-name { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 500; color: var(--text-dark); margin-bottom: 8px; }
+.gb-place-desc { font-size: 13.5px; line-height: 1.7; color: var(--text-mid); margin: 0 0 10px; }
+.gb-place-dist {
+  font-size: 10px; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: #8B6840;
+}
+
+/* ── RESTAURANTS LIST ──────────────────────────────── */
+.gb-restaurant-list { display: flex; flex-direction: column; gap: 2px; }
+.gb-restaurant {
+  background: #fff; padding: 24px 28px;
+  display: flex; gap: 20px; align-items: flex-start;
+  border-bottom: 1px solid rgba(139,104,64,0.08);
+}
+.gb-restaurant:last-child { border-bottom: none; }
+.gb-restaurant-num {
+  font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 300;
+  color: rgba(139,104,64,0.2); line-height: 1; flex-shrink: 0; width: 36px;
+}
+.gb-restaurant-info { flex: 1; }
+.gb-restaurant-name { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 500; color: var(--text-dark); margin-bottom: 4px; }
+.gb-restaurant-type { font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B6840; }
+.gb-restaurant-desc { font-size: 13.5px; line-height: 1.7; color: var(--text-mid); margin: 8px 0 0; }
+.gb-restaurant-dist { display: block; margin-top: 8px; font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-light); }
+
+/* ── ACTIVITIES GRID ───────────────────────────────── */
+.gb-activities-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.gb-activity {
+  background: #fff; border: 1px solid rgba(139,104,64,0.12);
+  padding: 24px;
+}
+.gb-activity-name { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 500; color: var(--text-dark); margin-bottom: 8px; }
+.gb-activity-desc { font-size: 13.5px; line-height: 1.7; color: var(--text-mid); margin: 0 0 10px; }
+.gb-activity-time { font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8B6840; }
+
+/* ── EMERGENCY GRID ────────────────────────────────── */
+.gb-emergency-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0; }
+.gb-emergency-card {
+  background: #fff; border: 1px solid rgba(139,104,64,0.12);
+  padding: 20px 24px; text-decoration: none; display: block;
+  transition: border-color 0.2s;
+}
+.gb-emergency-card:hover { border-color: var(--sand); }
+.gb-emergency-label {
+  display: block; font-size: 10px; font-weight: 600;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--text-light); margin-bottom: 6px;
+}
+.gb-emergency-value { font-size: 15px; font-weight: 500; color: var(--text-dark); }
+
+/* ── WIFI QR ───────────────────────────────────────── */
+.wifi-qr {
+  background: #fff; border: 1px solid rgba(139,104,64,0.12);
+  padding: 32px; display: flex; align-items: center; gap: 32px;
+}
+.wifi-qr-code { flex-shrink: 0; }
+.wifi-qr-details { flex: 1; }
+.wifi-qr-instruction {
+  font-size: 15px; line-height: 1.7; color: var(--text-mid); margin-bottom: 20px;
+}
+.wifi-qr-manual { }
+.wifi-field {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 0; border-bottom: 1px solid rgba(139,104,64,0.1);
+}
+.wifi-field:last-child { border-bottom: none; }
+.wifi-field-label {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--text-light);
+}
+.wifi-field-value {
+  font-size: 18px; font-weight: 500; color: var(--text-dark);
+  font-family: 'JetBrains Mono', 'SF Mono', 'Fira Code', monospace;
+  letter-spacing: 0.04em;
+}
+
+/* ── BOOK DIRECT (welcome only) ────────────────────── */
+.gb-section-direct {
+  background: var(--ink); padding: 64px 0;
+}
+.gb-section-direct .gb-section-title { color: var(--cream); }
+.gb-direct-text {
+  font-size: 16px; line-height: 1.8; color: var(--text-on-dark);
+  max-width: 440px; margin: 0 auto 32px;
+}
+.gb-direct-text strong { color: var(--sand); }
+.gb-direct-cta {
+  display: inline-block; background: var(--sand); color: var(--ink);
+  padding: 16px 40px; font-size: 12px; font-weight: 600;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  text-decoration: none; transition: background 0.2s;
+}
+.gb-direct-cta:hover { background: var(--cream); }
+.gb-direct-links {
+  margin-top: 24px; display: flex; justify-content: center;
+  align-items: center; gap: 16px;
+}
+.gb-direct-links a {
+  font-size: 13px; color: var(--text-on-dark-muted);
+  text-decoration: none; transition: color 0.2s;
+}
+.gb-direct-links a:hover { color: var(--cream); }
+.gb-direct-divider { color: var(--text-on-dark-muted); }
+
+/* ── GUIDEBOOK FOOTER ──────────────────────────────── */
+.gb-footer {
+  text-align: center; padding: 32px 24px;
+  border-top: 1px solid rgba(139,104,64,0.12);
+}
+.gb-footer p { font-size: 13px; color: var(--text-light); margin-bottom: 6px; }
+.gb-footer p:last-child { margin-bottom: 0; }
+.gb-footer a { color: #7A5C30; text-decoration: none; }
+.gb-footer a:hover { text-decoration: underline; }
+
+/* ── GUIDEBOOK RESPONSIVE ──────────────────────────── */
+@media (max-width: 768px) {
+  .gb-nav-links {
+    display: none; position: fixed; top: 64px; left: 0; right: 0; bottom: 0;
+    background: var(--ink); flex-direction: column; gap: 0;
+    padding: 16px; overflow-y: auto; z-index: 99;
+  }
+  .gb-nav-links.open { display: flex; }
+  .gb-nav-link {
+    width: 100%; text-align: left; padding: 14px 16px;
+    font-size: 13px; border-bottom: 1px solid rgba(196,168,130,0.08);
+  }
+  .gb-nav-toggle { display: flex; }
+
+  .gb-hero { min-height: 260px; padding: 36px 0; }
+  .gb-section { padding: 40px 0; }
+  .gb-room-grid,
+  .gb-rules-grid,
+  .gb-places-grid,
+  .gb-activities-grid,
+  .gb-emergency-grid { grid-template-columns: 1fr; }
+
+  .wifi-qr { flex-direction: column; text-align: center; gap: 24px; }
+  .wifi-field { justify-content: center; gap: 16px; flex-wrap: wrap; }
+
+  .gb-contact-row { flex-direction: column; }
+  .gb-detail-row { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .gb-detail-value { text-align: left; }
+}
+@media (max-width: 480px) {
+  .gb-nav-inner { padding: 0 16px; }
+  .gb-hero-content { padding: 0 16px; }
+  .gb-container { padding: 0 16px; }
+  .gb-restaurant { flex-direction: column; gap: 8px; }
+  .gb-restaurant-num { width: auto; }
+}
