@@ -2,7 +2,7 @@
 title: "Gonzaga Climbs to No. 3 Seed Ahead of March Madness 2026"
 date: "2026-03-06"
 excerpt: "The Bulldogs are projected as a No. 3 seed in the 2026 NCAA Tournament. Here's what Zags fans need to know — and why Manito Bungalow is the perfect base for watch parties."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/gonzaga-march-madness-2026.jpg"
 tags: ["Spokane", "Sports", "Events", "Downtown"]
 ---
 
