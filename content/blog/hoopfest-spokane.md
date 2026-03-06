@@ -1,6 +1,6 @@
 ---
 title: "Hoopfest Spokane — The World's Largest 3-on-3 Basketball Tournament"
-date: "2026-02-01"
+date: "2025-07-02"
 excerpt: "Hoopfest is the world's largest 3-on-3 basketball tournament, held every June in downtown Spokane. Stay at Manito Bungalow, 10 minutes from the courts."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---

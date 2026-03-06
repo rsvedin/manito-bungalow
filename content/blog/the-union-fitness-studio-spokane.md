@@ -1,6 +1,6 @@
 ---
 title: "The Union Fitness Studio — Stay Active During Your Spokane Trip"
-date: "2026-01-22"
+date: "2024-12-12"
 excerpt: "The Union is Spokane's best fitness studio offering spin, yoga, meditation & strength classes. Drop-in classes available. Minutes from Manito Bungalow."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -28,6 +28,17 @@ Full-body strength classes that complement the cardio offerings. Well-structured
 ## Drop-In Friendly
 
 You don't need a membership to work out at The Union. Drop-in classes are available, and you can also find them on ClassPass and Wellhub if you're already a member of those platforms. Check the class schedule online before you go.
+
+
+
+## See Them on Instagram
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/thisistheunion/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;"><div style="padding:16px;"><a href="https://www.instagram.com/thisistheunion/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this post on Instagram</a></div></blockquote>
+
+## Follow Them
+
+- **Instagram:** [@thisistheunion](https://www.instagram.com/thisistheunion/)
+- **Facebook:** [The Union Studios](https://www.facebook.com/thisistheunion/)
 
 **Address:** 1309 W 1st Ave, Spokane, WA 99201
 **Phone:** [(509) 838-7625](tel:+15098387625)

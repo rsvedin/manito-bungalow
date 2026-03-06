@@ -1,6 +1,6 @@
 ---
 title: "The Best Restaurants Near Manito Bungalow"
-date: "2026-03-06"
+date: "2023-09-28"
 excerpt: "From craft gastropubs to fine dining, here are the South Hill restaurants we recommend to every guest."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/027be553.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---

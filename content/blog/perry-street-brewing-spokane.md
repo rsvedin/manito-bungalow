@@ -1,6 +1,6 @@
 ---
 title: "Perry Street Brewing — The Heart of the Perry District"
-date: "2024-09-22"
+date: "2024-06-05"
 excerpt: "Perry Street Brewing is a must-visit Spokane brewery with 3 Great American Beer Festival gold medals. Located in the walkable Perry District, 10 minutes from Manito Bungalow."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -20,6 +20,12 @@ The taproom is warm and inviting without trying too hard. It's the kind of place
 ## The Perry District
 
 What makes Perry Street Brewing even better is the neighborhood around it. The Perry District is a walkable stretch of South Perry Street lined with independent shops, cafes, and restaurants. The [South Perry Thursday Market](/blog/spokane-farmers-markets) sets up just steps away during summer. It's the kind of neighborhood that rewards a slow afternoon of exploring.
+
+
+
+## See Them on Instagram
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/perrystreetbrew/p/DH9alDpzL79/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;"><div style="padding:16px;"><a href="https://www.instagram.com/perrystreetbrew/p/DH9alDpzL79/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this post on Instagram</a></div></blockquote>
 
 ## Follow Them
 

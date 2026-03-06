@@ -1,6 +1,6 @@
 ---
 title: "Your Complete Guide to Manito Park in Spokane"
-date: "2026-02-15"
+date: "2023-11-08"
 excerpt: "Manito Park is just one block from Manito Bungalow. Explore 90 acres of gardens, a Japanese garden, conservatory & more. Your guide to Spokane's crown jewel."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---

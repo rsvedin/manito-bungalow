@@ -1,5 +1,6 @@
 import { getPostBySlug, getAllSlugs } from '../../../lib/blog';
 import Nav from '../../components/Nav';
+import InstagramEmbed from '../../components/InstagramEmbed';
 import Link from 'next/link';
 
 export async function generateStaticParams() {
@@ -37,6 +38,7 @@ export default async function BlogPost({ params }) {
             </div>
           )}
           <div className="blog-article-content" dangerouslySetInnerHTML={{ __html: post.content }} />
+          <InstagramEmbed />
           <div className="blog-article-footer">
             <Link href="/blog" className="blog-back">&larr; Back to all posts</Link>
             <a href="/#book" className="btn-primary" style={{ marginLeft: 'auto' }}>Book Your Stay</a>

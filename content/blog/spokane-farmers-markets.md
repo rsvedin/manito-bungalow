@@ -1,6 +1,6 @@
 ---
 title: "Spokane Farmers Markets — Fresh & Local Every Weekend"
-date: "2023-08-22"
+date: "2025-04-22"
 excerpt: "Spokane's best farmers markets: South Perry Thursday Market and the Saturday Spokane Farmers Market. Fresh produce, local vendors, and community vibes near Manito Bungalow."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -14,6 +14,13 @@ The South Perry Thursday Market is our favorite. Set in the heart of the Perry D
 Over 20 local vendors line the street with fresh produce, flowers, honey, herbs, artisan prepared foods, and handcrafted goods. Live music plays in the background. Kids run around. Neighbors catch up. It's the kind of Thursday evening that reminds you why small-city life is appealing.
 
 The market accepts credit cards, debit, WIC, Senior FMNP, and SNAP EBT with matching — a commitment to making local food accessible to everyone.
+
+
+
+## See Them on Instagram
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/thursdaymarket/p/DBCesT4zOEA/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;"><div style="padding:16px;"><a href="https://www.instagram.com/thursdaymarket/p/DBCesT4zOEA/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this post on Instagram</a></div></blockquote>
+
 
 **Address:** 1000 S Perry St (Grant Park area), Spokane, WA 99202
 **Hours:** Thursdays, 3 PM–7 PM (May through October)

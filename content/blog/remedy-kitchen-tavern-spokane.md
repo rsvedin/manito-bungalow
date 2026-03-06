@@ -1,6 +1,6 @@
 ---
 title: "Remedy Kitchen & Tavern — South Hill's Neighborhood Favorite"
-date: "2023-10-08"
+date: "2024-01-18"
 excerpt: "Remedy Kitchen & Tavern on Grand Blvd serves elevated pub fare, craft cocktails, and 24 taps with a rooftop patio. A 5-minute walk from Manito Bungalow in Spokane."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -22,6 +22,12 @@ During Spokane's warmer months (which stretch longer than most people expect —
 ## The Banquet Hall
 
 Visiting Spokane for a special occasion? Remedy has a full-service banquet hall for private events. Combined with the main dining room and bar, it's one of the more flexible spaces on the South Hill for groups. And with Manito Bungalow sleeping 10 just five minutes away, the logistics are easy.
+
+
+
+## See Them on Instagram
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Cxll1NCyFIp/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;"><div style="padding:16px;"><a href="https://www.instagram.com/p/Cxll1NCyFIp/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this post on Instagram</a></div></blockquote>
 
 ## Follow Them
 

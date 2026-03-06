@@ -1,6 +1,6 @@
 ---
 title: "Gonzaga Basketball in Spokane — Stay Close to the Action"
-date: "2026-02-03"
+date: "2025-11-20"
 excerpt: "Gonzaga basketball is a Spokane institution. Stay at Manito Bungalow, 15 minutes from McCarthey Athletic Center, for the ultimate Zags game-day experience."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
 ---
@@ -18,6 +18,17 @@ The roster features a talented mix of returning stars and exciting additions. Ke
 ## McCarthey Athletic Center — "The Kennel"
 
 The Kennel is one of the most intimidating venues in college basketball. With a capacity of 6,000 and a student section that rivals any in the country, the atmosphere is absolutely electric. Gonzaga home games regularly sell out, and the energy from tip-off to final buzzer is something you have to experience in person.
+
+
+
+## See Them on Instagram
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/zagmbb/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;"><div style="padding:16px;"><a href="https://www.instagram.com/zagmbb/" style="background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">View this post on Instagram</a></div></blockquote>
+
+## Follow Them
+
+- **Instagram:** [@zagmbb](https://www.instagram.com/zagmbb/)
+- **Facebook:** [Gonzaga Athletics](https://www.facebook.com/gonzagaathletics/)
 
 **Address:** 801 N Cincinnati St, Spokane, WA 99258
 **Capacity:** 6,000
