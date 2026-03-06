@@ -4,6 +4,8 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Manito Bungalow — Spokane's Favorite Bungalow</title>
+<meta name="description" content="A beautifully restored 1920s craftsman bungalow on Spokane's South Hill — one block from Manito Park. Sleeps 10. Book direct for the best rate."/>
+<meta name="referrer" content="strict-origin-when-cross-origin"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
@@ -26,8 +28,8 @@
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-  body { background: var(--ink); color: var(--cream); font-family: 'Jost', sans-serif; font-weight: 300; overflow-x: hidden; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { background: var(--ink); color: var(--cream); font-family: 'Jost', sans-serif; font-weight: 300; overflow-x: hidden; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
   /* ── NAV ─────────────────────────────────────────── */
   #nav {
@@ -169,7 +171,7 @@
   .split { display: flex; align-items: center; gap: 72px; }
   .split.reverse { flex-direction: row-reverse; }
   .split-img { flex: 0 0 52%; height: 640px; position: relative; overflow: hidden; }
-  .split-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.8s ease; }
+  .split-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.8s ease; -webkit-backface-visibility: hidden; }
   .split-img:hover img { transform: scale(1.03); }
   .split-img-badge {
     position: absolute; bottom: 24px; left: 24px;
@@ -274,9 +276,34 @@
   .mn-link:hover { color: var(--sand); }
   .mn-book { margin-top: 36px; display: inline-block; background: var(--sand); color: var(--ink); padding: 16px 36px; font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; text-decoration: none; align-self: flex-start; }
 
+  /* ── SKIP LINK ────────────────────────────────────── */
+  .skip-link {
+    position: absolute; top: -100%; left: 16px; z-index: 2000;
+    background: var(--sand); color: var(--ink); padding: 12px 24px;
+    font-size: 14px; font-weight: 600; text-decoration: none;
+    border-radius: 0 0 4px 4px;
+  }
+  .skip-link:focus { top: 0; }
+
+  /* ── FOCUS STYLES ────────────────────────────────── */
+  :focus-visible {
+    outline: 2px solid var(--sand);
+    outline-offset: 3px;
+  }
+  .on-light :focus-visible, .on-warm :focus-visible, #book :focus-visible {
+    outline-color: #7A5C30;
+  }
+
   /* ── ANIMATE ──────────────────────────────────────── */
   .fade-up { opacity: 0; transform: translateY(26px); transition: opacity 0.7s ease, transform 0.7s ease; }
   .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+  /* ── REDUCED MOTION ──────────────────────────────── */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+    .fade-up { opacity: 1; transform: none; }
+    .split-img img, .photo-strip-item img { transition: none; }
+  }
 
   /* ── RESPONSIVE ──────────────────────────────────── */
   @media (max-width: 1024px) {
@@ -289,6 +316,7 @@
     :root { --nav-h: 72px; }
     #nav { padding: 0 24px; } .nav-links { display: none; } .nav-burger { display: flex; } .nav-mobile-book { display: flex; align-items: center; margin-left: auto; margin-right: 16px; }
     .hero-content { padding: 0 28px; } .hero-stats { display: none; }
+    #hero { min-height: 480px; }
     section { padding: 68px 0; } .container { padding: 0 24px; }
     .split, .split.reverse { flex-direction: column; gap: 0; }
     .split-img { flex: none; width: 100%; height: 280px; }
@@ -299,18 +327,23 @@
     .footer-bottom { flex-direction: column; align-items: flex-start; }
     .photo-strip { grid-template-columns: 1fr 1fr; }
     .photo-strip-item.tall { grid-row: span 1; height: 220px; }
+    #booking-iframe { height: 700px; }
+    .ev { padding: 28px 24px; gap: 18px; }
   }
   @media (max-width: 480px) {
     .restaurant-grid, .footer-inner { grid-template-columns: 1fr; }
     .hero-headline { font-size: 40px; }
     .photo-strip { grid-template-columns: 1fr; }
+    #booking-iframe { height: 600px; }
   }
 </style>
 </head>
 <body>
 
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
 <!-- NAV -->
-<nav id="nav">
+<nav id="nav" aria-label="Main navigation">
   <a href="#" class="nav-logo">Manito <em>Bungalow</em></a>
   <ul class="nav-links">
     <li><a href="#space">The Space</a></li>
@@ -320,12 +353,12 @@
     <li><a href="#book" class="nav-book">Book Now</a></li>
   </ul>
   <a href="#book" class="nav-mobile-book">Book Now</a>
-  <button class="nav-burger" id="burgerBtn" aria-label="Menu">
+  <button class="nav-burger" id="burgerBtn" aria-label="Menu" aria-expanded="false" aria-controls="mobile-nav">
     <span></span><span></span><span></span>
   </button>
 </nav>
 
-<div id="mobile-nav">
+<div id="mobile-nav" role="dialog" aria-label="Mobile navigation" aria-hidden="true">
   <a href="#space" class="mn-link">The Space</a>
   <a href="#neighborhood" class="mn-link">Neighborhood</a>
   <a href="#restaurants" class="mn-link">Restaurants</a>
@@ -334,6 +367,7 @@
 </div>
 
 <!-- HERO -->
+<main id="main-content">
 <section id="hero">
   <div class="hero-bg"></div>
   <div class="hero-content">
@@ -379,14 +413,14 @@
         <p class="section-body">Step inside and feel the difference between a rental and a home. Original hardwood floors, high ceilings, and thoughtfully curated furnishings give Manito Bungalow a warmth that photos can't quite capture — but guests never forget.</p>
         <p class="section-body" style="margin-top:16px;">Three well-appointed bedrooms sleep up to 10. The full kitchen is stocked for everything from morning coffee to a proper dinner party. There's a washer and dryer for longer stays, and an outdoor space that's all yours.</p>
         <div class="amenity-grid">
-          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>3 Bedrooms</div>
-          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 3"/></svg>Sleeps 10</div>
-          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M3 12h18M3 6h18"/></svg>2 Bathrooms</div>
-          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg>Full Kitchen</div>
-          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>Washer & Dryer</div>
-          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>Pet Friendly</div>
-          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Outdoor Space</div>
-          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M3 9l9-7 9 7"/><rect x="6" y="12" width="4" height="9"/><rect x="14" y="12" width="4" height="9"/></svg>Air Conditioning</div>
+          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>3 Bedrooms</div>
+          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 3"/></svg>Sleeps 10</div>
+          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><path d="M3 12h18M3 6h18"/></svg>2 Bathrooms</div>
+          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg>Full Kitchen</div>
+          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>Washer & Dryer</div>
+          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>Pet Friendly</div>
+          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Outdoor Space</div>
+          <div class="amenity-pill"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true"><path d="M3 9l9-7 9 7"/><rect x="6" y="12" width="4" height="9"/><rect x="14" y="12" width="4" height="9"/></svg>Air Conditioning</div>
         </div>
         <a href="#book" class="link-arrow">See all amenities</a>
       </div>
@@ -480,14 +514,16 @@
     <p class="section-label">Direct Booking</p>
     <h2 class="section-h2">Ready to make<br><em>Spokane yours?</em></h2>
     <p style="font-size:15.5px; line-height:1.82; margin-bottom:40px;">Book directly for the best rate, or check availability on VRBO and Airbnb. Either way, we can't wait to host you.</p>
-    <iframe id="booking-iframe" sandbox="allow-top-navigation allow-scripts allow-same-origin" style="width: 100%; height: 900px; border: none; border-radius: 4px;" frameborder="0" src="https://booking.hospitable.com/widget/a13c6964-ae97-4821-a25c-70cda0de762d/1289150"></iframe>
+    <iframe id="booking-iframe" title="Book Manito Bungalow" sandbox="allow-top-navigation allow-scripts allow-same-origin" style="width: 100%; height: 900px; border: none; border-radius: 4px;" frameborder="0" loading="lazy" src="https://booking.hospitable.com/widget/a13c6964-ae97-4821-a25c-70cda0de762d/1289150"></iframe>
     <div style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap; margin-top:40px;">
-      <a href="https://www.vrbo.com/3803640" target="_blank" rel="noopener" class="btn-primary">Book on VRBO</a>
-      <a href="https://www.airbnb.com/rooms/1049335217620947625" target="_blank" rel="noopener" class="btn-outline">Book on Airbnb</a>
+      <a href="https://www.vrbo.com/3803640" target="_blank" rel="noopener noreferrer" class="btn-primary">Book on VRBO</a>
+      <a href="https://www.airbnb.com/rooms/1049335217620947625" target="_blank" rel="noopener noreferrer" class="btn-outline">Book on Airbnb</a>
     </div>
     <p style="margin-top:32px; font-size:13px; color:var(--text-light);">Questions? <a href="mailto:rsvedin@gmail.com" style="color:#7A5C30; text-decoration:underline;">Get in touch</a></p>
   </div>
 </section>
+
+</main>
 
 <!-- FOOTER -->
 <footer id="footer">
@@ -496,7 +532,7 @@
       <div>
         <div class="footer-name">Manito Bungalow</div>
         <p class="footer-desc">A beautifully restored 1920s craftsman bungalow on Spokane's beloved South Hill — one block from Manito Park.</p>
-        <a href="https://www.vrbo.com/3803640" target="_blank" class="footer-cta">Book Your Stay</a>
+        <a href="https://www.vrbo.com/3803640" target="_blank" rel="noopener noreferrer" class="footer-cta">Book Your Stay</a>
       </div>
       <div>
         <div class="footer-col-title">The Property</div>
@@ -519,10 +555,10 @@
       <div>
         <div class="footer-col-title">Connect</div>
         <ul class="footer-links">
-          <li><a href="https://www.instagram.com/manitobungalow/" target="_blank">@manitobungalow</a></li>
+          <li><a href="https://www.instagram.com/manitobungalow/" target="_blank" rel="noopener noreferrer">@manitobungalow</a></li>
           <li><a href="mailto:rsvedin@gmail.com">manitobungalow@gmail.com</a></li>
-          <li><a href="https://www.vrbo.com/3803640" target="_blank">VRBO Listing</a></li>
-          <li><a href="https://www.airbnb.com/rooms/1049335217620947625" target="_blank">Airbnb Listing</a></li>
+          <li><a href="https://www.vrbo.com/3803640" target="_blank" rel="noopener noreferrer">VRBO Listing</a></li>
+          <li><a href="https://www.airbnb.com/rooms/1049335217620947625" target="_blank" rel="noopener noreferrer">Airbnb Listing</a></li>
         </ul>
       </div>
     </div>
@@ -542,8 +578,17 @@
   window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 40));
   const burger = document.getElementById('burgerBtn');
   const mobileNav = document.getElementById('mobile-nav');
-  burger.addEventListener('click', () => { mobileNav.classList.toggle('open'); document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : ''; });
-  mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { mobileNav.classList.remove('open'); document.body.style.overflow = ''; }));
+  function toggleMobileNav(open) {
+    const isOpen = typeof open === 'boolean' ? open : !mobileNav.classList.contains('open');
+    mobileNav.classList.toggle('open', isOpen);
+    mobileNav.setAttribute('aria-hidden', String(!isOpen));
+    burger.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+    if (isOpen) mobileNav.querySelector('a').focus();
+  }
+  burger.addEventListener('click', () => toggleMobileNav());
+  mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => toggleMobileNav(false)));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && mobileNav.classList.contains('open')) toggleMobileNav(false); });
   const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }); }, { threshold: 0.15 });
   document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 </script>
