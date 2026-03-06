@@ -240,6 +240,7 @@ export default function Home() {
                 <li><a href="#events">Annual Events</a></li>
                 <li><a href="#neighborhood">Manito Park</a></li>
                 <li><a href="#neighborhood">What&apos;s Nearby</a></li>
+                <li><a href="/blog">Blog</a></li>
               </ul>
             </div>
             <div>
