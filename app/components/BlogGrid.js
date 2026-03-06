@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 const filters = [
@@ -13,14 +14,46 @@ const filters = [
 ];
 
 export default function BlogGrid({ posts }) {
-  const [active, setActive] = useState('All');
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const tagParam = searchParams.get('tag');
 
-  const filtered = active === 'All'
-    ? posts
-    : posts.filter(post => {
-        const filter = filters.find(f => f.label === active);
-        return post.tags?.some(tag => filter.tags.includes(tag));
-      });
+  const [activeFilter, setActiveFilter] = useState('All');
+  const [activeTag, setActiveTag] = useState(null);
+
+  useEffect(() => {
+    if (tagParam) {
+      setActiveFilter(null);
+      setActiveTag(tagParam);
+    } else {
+      setActiveFilter('All');
+      setActiveTag(null);
+    }
+  }, [tagParam]);
+
+  const handleFilter = (label) => {
+    setActiveFilter(label);
+    setActiveTag(null);
+    router.replace('/blog', { scroll: false });
+  };
+
+  const handleTagClick = (tag, e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setActiveFilter(null);
+    setActiveTag(tag);
+    router.replace(`/blog?tag=${encodeURIComponent(tag)}`, { scroll: false });
+  };
+
+  let filtered;
+  if (activeTag) {
+    filtered = posts.filter(post => post.tags?.includes(activeTag));
+  } else if (!activeFilter || activeFilter === 'All') {
+    filtered = posts;
+  } else {
+    const filter = filters.find(f => f.label === activeFilter);
+    filtered = posts.filter(post => post.tags?.some(tag => filter.tags.includes(tag)));
+  }
 
   return (
     <>
@@ -28,13 +61,19 @@ export default function BlogGrid({ posts }) {
         {filters.map(f => (
           <button
             key={f.label}
-            className={`blog-filter-btn${active === f.label ? ' active' : ''}`}
-            onClick={() => setActive(f.label)}
+            className={`blog-filter-btn${activeFilter === f.label && !activeTag ? ' active' : ''}`}
+            onClick={() => handleFilter(f.label)}
           >
             {f.label}
           </button>
         ))}
       </div>
+      {activeTag && (
+        <div className="blog-active-tag">
+          <span>Showing posts tagged <strong>#{activeTag}</strong></span>
+          <button onClick={() => handleFilter('All')} className="blog-clear-filter">Clear filter</button>
+        </div>
+      )}
       <div className="blog-grid">
         {filtered.map(post => (
           <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card">
@@ -51,7 +90,16 @@ export default function BlogGrid({ posts }) {
               {post.tags && post.tags.length > 0 && (
                 <div className="blog-card-tags">
                   {post.tags.map(tag => (
-                    <span key={tag} className="blog-tag">#{tag}</span>
+                    <span
+                      key={tag}
+                      className={`blog-tag clickable${activeTag === tag ? ' active' : ''}`}
+                      onClick={(e) => handleTagClick(tag, e)}
+                      role="button"
+                      tabIndex={0}
+                      onKeyDown={(e) => { if (e.key === 'Enter') handleTagClick(tag, e); }}
+                    >
+                      #{tag}
+                    </span>
                   ))}
                 </div>
               )}
