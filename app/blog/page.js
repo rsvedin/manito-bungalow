@@ -33,6 +33,13 @@ export default function BlogIndex() {
                   <time className="blog-card-date">{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
                   <h2 className="blog-card-title">{post.title}</h2>
                   {post.excerpt && <p className="blog-card-excerpt">{post.excerpt}</p>}
+                  {post.tags && post.tags.length > 0 && (
+                    <div className="blog-card-tags">
+                      {post.tags.map(tag => (
+                        <span key={tag} className="blog-tag">#{tag}</span>
+                      ))}
+                    </div>
+                  )}
                   <span className="blog-card-link">Read more</span>
                 </div>
               </Link>

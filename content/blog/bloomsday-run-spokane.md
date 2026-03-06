@@ -3,6 +3,7 @@ title: "Bloomsday Run in Spokane — America's Favorite 12K (2026 Is the 50th!)"
 date: "2025-05-10"
 excerpt: "The Bloomsday Run is Spokane's iconic 12K race every May. 2026 marks the 50th anniversary! Stay at Manito Bungalow, perfectly located on the South Hill."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Events", "Fitness", "Downtown", "Spring"]
 ---
 
 Every first Sunday in May, Spokane comes alive for **Bloomsday** — one of America's largest and most beloved timed road races. With 50,000+ participants filling the streets for a scenic 12-kilometer course through the heart of the city, it's part race, part festival, and 100% Spokane.

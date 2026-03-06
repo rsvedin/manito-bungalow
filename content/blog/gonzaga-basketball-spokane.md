@@ -3,6 +3,7 @@ title: "Gonzaga Basketball in Spokane — Stay Close to the Action"
 date: "2025-11-20"
 excerpt: "Gonzaga basketball is a Spokane institution. Stay at Manito Bungalow, 15 minutes from McCarthey Athletic Center, for the ultimate Zags game-day experience."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Sports", "Winter", "Events", "Downtown"]
 ---
 
 If there's one thing that unites all of Spokane, it's **Gonzaga basketball**. On game nights, the city turns blue and white. The energy at McCarthey Athletic Center — affectionately known as "The Kennel" — is electric, and the Bulldogs have become one of the most consistently excellent programs in all of college basketball.

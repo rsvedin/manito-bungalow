@@ -1,8 +1,9 @@
 ---
 title: "Welcome to Manito Bungalow"
-date: "2023-08-15"
+date: "2024-01-10"
 excerpt: "We're thrilled to introduce Manito Bungalow — a beautifully restored 1910 craftsman on Spokane's South Hill, one block from Manito Park."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "South Hill", "Manito Park", "Travel Tips"]
 ---
 
 We're thrilled to officially launch the Manito Bungalow website — your new home base for everything related to our beautifully restored 1910 craftsman bungalow on Spokane's beloved South Hill.

@@ -3,6 +3,7 @@ title: "The Union Fitness Studio — Stay Active During Your Spokane Trip"
 date: "2024-12-12"
 excerpt: "The Union is Spokane's best fitness studio offering spin, yoga, meditation & strength classes. Drop-in classes available. Minutes from Manito Bungalow."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Fitness", "South Hill", "Travel Tips"]
 ---
 
 Just because you're on vacation doesn't mean you have to skip your workout. **The Union** is Spokane's premier fitness studio, and it's become one of our go-to recommendations for guests who want to stay active during their trip. Whether you're into cycling, yoga, or strength training, The Union delivers an experience that's worth getting up early for.

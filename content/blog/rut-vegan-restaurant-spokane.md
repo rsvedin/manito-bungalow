@@ -3,6 +3,7 @@ title: "Rüt — Spokane's Best Vegan Restaurant (A Local's Recommendation)"
 date: "2024-10-02"
 excerpt: "Rüt is Spokane's premier plant-based restaurant serving creative vegan dishes. Located minutes from Manito Bungalow on the South Hill. A must-visit."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Food", "Restaurants", "South Hill"]
 ---
 
 Spokane isn't always the first city that comes to mind for plant-based dining — but **Rüt** is changing that perception one incredible dish at a time. As hosts at Manito Bungalow, we've sent dozens of guests here, and the feedback is always the same: "We can't believe that was vegan."

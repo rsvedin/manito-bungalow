@@ -30,6 +30,13 @@ export default async function BlogPost({ params }) {
             <Link href="/blog" className="blog-back">&larr; All Posts</Link>
             <time className="blog-card-date">{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
             <h1 className="blog-article-title">{post.title}</h1>
+            {post.tags && post.tags.length > 0 && (
+              <div className="blog-article-tags">
+                {post.tags.map(tag => (
+                  <span key={tag} className="blog-tag">#{tag}</span>
+                ))}
+              </div>
+            )}
           </div>
           {post.coverImage && (
             <div className="blog-article-cover">

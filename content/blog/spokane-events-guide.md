@@ -1,8 +1,9 @@
 ---
 title: "A Guide to Spokane's Best Annual Events"
-date: "2023-10-05"
+date: "2024-03-08"
 excerpt: "From Bloomsday to Pig Out in the Park, Spokane's event calendar is packed. Here's what to plan your trip around."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/fd88d08c.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Events", "Summer", "Family", "Downtown"]
 ---
 
 Spokane punches far above its weight when it comes to annual events. If you're planning a trip to the Manito Bungalow, here's what's happening throughout the year — and why it's worth timing your visit around one of these.

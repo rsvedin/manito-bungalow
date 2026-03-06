@@ -3,6 +3,7 @@ title: "Winter in Spokane — Why It's the Perfect Time to Visit"
 date: "2025-01-15"
 excerpt: "Spokane winters offer skiing at Mt Spokane, ice skating at Riverfront Park, cozy brewpubs & more. Mid-term rentals available at Manito Bungalow up to 6 months."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Winter", "Outdoors", "Family", "Sports"]
 ---
 
 Most people think of Spokane as a summer destination — and summer is incredible. But there's a strong case to be made that **winter in Spokane** is just as special, just in a completely different way. Cozy brewpubs, affordable skiing, ice skating under the lights, and a city that genuinely embraces the cold season rather than hiding from it.

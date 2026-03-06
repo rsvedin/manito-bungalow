@@ -1,8 +1,9 @@
 ---
 title: "A Brief History of Spokane — From Falls to Expo '74"
-date: "2023-10-20"
+date: "2024-03-25"
 excerpt: "Explore Spokane's history from the Spokane Tribe and fur traders to the Great Fire of 1889, Expo '74, and the vibrant city it is today. A guide for curious visitors."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "History", "Downtown", "Travel Tips"]
 ---
 
 When you walk through Spokane's tree-lined neighborhoods, past its craftsman bungalows and along the thundering falls downtown, you're walking through a city shaped by extraordinary history. Here's the story of how Spokane became the vibrant place you'll find today.

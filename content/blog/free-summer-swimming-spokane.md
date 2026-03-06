@@ -3,6 +3,7 @@ title: "Free Summer Swimming in Spokane — A Family Pool Guide"
 date: "2025-06-14"
 excerpt: "Spokane offers free public swimming at 6 city pools all summer. Get your free SplashPass and enjoy. A family guide from Manito Bungalow on the South Hill."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Summer", "Family", "Outdoors", "South Hill"]
 ---
 
 Here's something most visitors to Spokane don't know: the city operates **six public swimming pools**, and admission is **completely free**. All you need is a SplashPass — a free digital registration that works like a library card — and your family has access to outdoor pools all summer long.
