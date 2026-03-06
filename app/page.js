@@ -194,18 +194,19 @@ export default function Home() {
 
         {/* BOOK */}
         <section id="book">
-          <div className="container" style={{ maxWidth: 900, textAlign: 'center' }}>
+          <div className="container booking-container">
             <p className="section-label">Direct Booking</p>
             <h2 className="section-h2">Ready to make<br/><em>Spokane yours?</em></h2>
             <p style={{ fontSize: '15.5px', lineHeight: 1.82, marginBottom: 40 }}>Book directly for the best rate, or check availability on VRBO and Airbnb. Either way, we can&apos;t wait to host you.</p>
-            <iframe
-              id="booking-iframe"
-              title="Book Manito Bungalow"
-              sandbox="allow-top-navigation allow-scripts allow-same-origin"
-              style={{ width: '100%', height: 900, border: 'none', borderRadius: 4 }}
-              loading="lazy"
-              src="https://booking.hospitable.com/widget/a13c6964-ae97-4821-a25c-70cda0de762d/1289150"
-            />
+            <div className="booking-widget-wrap">
+              <iframe
+                id="booking-iframe"
+                title="Book Manito Bungalow"
+                sandbox="allow-top-navigation allow-scripts allow-same-origin"
+                loading="lazy"
+                src="https://booking.hospitable.com/widget/a13c6964-ae97-4821-a25c-70cda0de762d/1289150"
+              />
+            </div>
             <div style={{ display: 'flex', justifyContent: 'center', gap: 16, flexWrap: 'wrap', marginTop: 40 }}>
               <a href="https://www.vrbo.com/3803640" target="_blank" rel="noopener noreferrer" className="btn-primary">Book on VRBO</a>
               <a href="https://www.airbnb.com/rooms/1049335217620947625" target="_blank" rel="noopener noreferrer" className="btn-outline">Book on Airbnb</a>
