@@ -291,6 +291,7 @@ section { padding: 100px 0; }
 
 .blog-article { max-width: 760px; padding-top: 48px; padding-bottom: 80px; }
 .blog-article-header { margin-bottom: 32px; }
+.blog-article-header .blog-card-date { display: block; margin-top: 8px; }
 .blog-back { font-size: 13px; color: #7A5C30; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 24px; transition: gap 0.2s; }
 .blog-back:hover { gap: 10px; }
 .blog-article-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 4vw, 48px); font-weight: 400; color: var(--text-dark); line-height: 1.15; margin-top: 12px; }
