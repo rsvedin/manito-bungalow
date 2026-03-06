@@ -3,6 +3,7 @@ title: "Top 15 Spokane Attractions — A Visitor's Guide"
 date: "2025-08-08"
 excerpt: "From Spokane Falls to Manito Park, here are the top 15 things to do in Spokane. A local's guide for visitors staying at Manito Bungalow on the South Hill."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Travel Tips", "Family", "Outdoors", "Downtown"]
 ---
 
 Spokane has a way of surprising people. Visitors come expecting a small Northwest city and find a place packed with world-class parks, stunning natural scenery, a thriving food and beer scene, and a genuinely warm community. Here are the 15 attractions we recommend to every guest who stays at Manito Bungalow.

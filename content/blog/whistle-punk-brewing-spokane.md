@@ -3,6 +3,7 @@ title: "Whistle Punk Brewing — Spokane's Best-Kept Beer Secret"
 date: "2024-07-19"
 excerpt: "Whistle Punk Brewing is a father-son brewery in downtown Spokane's Railroad Alley. Traditional lagers, exceptional quality, and zero pretension. A beer lover's brewery."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Craft Beer", "Breweries", "Downtown"]
 ---
 
 Every beer city has that one brewery the locals guard jealously — the place they bring friends who "really know beer." In Spokane, that place is **Whistle Punk Brewing**.

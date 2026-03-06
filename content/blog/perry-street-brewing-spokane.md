@@ -3,6 +3,7 @@ title: "Perry Street Brewing — The Heart of the Perry District"
 date: "2024-06-05"
 excerpt: "Perry Street Brewing is a must-visit Spokane brewery with 3 Great American Beer Festival gold medals. Located in the walkable Perry District, 10 minutes from Manito Bungalow."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Craft Beer", "Breweries", "Perry District", "Food"]
 ---
 
 If you want to understand what makes Spokane's beer scene special, start at **Perry Street Brewing**. Tucked into the heart of the Perry District on Spokane's lower South Hill, this neighborhood brewery has quietly become one of the most awarded in the state — with three Gold Medals from the Great American Beer Festival to prove it.

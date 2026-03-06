@@ -1,8 +1,9 @@
 ---
 title: "Lumberbeard Brewing — Our Favorite Brewery in Spokane"
-date: "2024-04-10"
+date: "2024-07-25"
 excerpt: "Lumberbeard Brewing in Spokane has the best boneless wings, pretzel bites & craft beer. Just 5 minutes from Manito Bungalow on the South Hill."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Craft Beer", "Breweries", "Food", "South Hill"]
 ---
 
 We'll be honest — we send every single guest to **Lumberbeard Brewing**. It's not just because it's close to the bungalow (though at just 5 minutes away, it's practically our neighborhood brewery). It's because the combination of exceptional craft beer and genuinely outstanding food makes it one of the best spots in all of Spokane.

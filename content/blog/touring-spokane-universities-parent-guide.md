@@ -3,6 +3,7 @@ title: "Visiting Spokane Universities — A Parent's Guide to Campus Tours"
 date: "2025-09-15"
 excerpt: "Planning campus visits to Gonzaga, Whitworth, EWU or WSU? Stay at Manito Bungalow with the whole family. A parent's guide to touring Spokane universities."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Family", "Travel Tips", "Events"]
 ---
 
 Spokane is home to some of the Pacific Northwest's finest universities, and every year thousands of families visit to tour campuses and help their kids make one of life's biggest decisions. If you're planning a college visit trip, [Manito Bungalow](/) makes the perfect home base — centrally located, room for the whole family, and close to every campus in the area.

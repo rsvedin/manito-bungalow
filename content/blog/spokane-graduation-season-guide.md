@@ -3,6 +3,7 @@ title: "Graduation Season in Spokane — A Guide for Visiting Families"
 date: "2025-10-22"
 excerpt: "Visiting Spokane for graduation at Gonzaga, Whitworth, EWU or WSU? Manito Bungalow sleeps 10 and is perfect for families celebrating. Dates, tips & more."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Events", "Family", "Travel Tips"]
 ---
 
 Every May, Spokane fills with proud families, decorated mortarboards, and an unmistakable energy of celebration. With four major universities in the area, **graduation season** is one of the biggest travel weekends of the year — and finding the right place to stay for the whole family can be a challenge.

@@ -1,8 +1,9 @@
 ---
 title: "The Pubs on Grand Boulevard — South Hill's Best Night Out"
-date: "2024-03-15"
+date: "2024-07-08"
 excerpt: "Grand Boulevard on Spokane's South Hill is home to Manito Tap House and Remedy Kitchen & Tavern — both walking distance from Manito Bungalow. Your local pub guide."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "South Hill", "Craft Beer", "Restaurants", "Food"]
 ---
 
 One of the best things about staying at Manito Bungalow isn't just the house — it's the neighborhood. **Grand Boulevard** runs right through the South Hill, and along it you'll find two of Spokane's most beloved pubs, both within easy walking distance. No driving, no parking, no worries. Just great food, great beer, and a genuine neighborhood vibe that's hard to find anywhere else.

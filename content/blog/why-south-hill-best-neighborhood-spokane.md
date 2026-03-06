@@ -1,8 +1,9 @@
 ---
 title: "Why South Hill Is the Best Neighborhood in Spokane"
-date: "2023-09-12"
+date: "2024-02-05"
 excerpt: "Spokane's South Hill is the city's most beloved neighborhood — tree-lined streets, craftsman homes, Manito Park, walkable restaurants, and a true community feel."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "South Hill", "Manito Park", "Family", "History"]
 ---
 
 Every city has that one neighborhood — the one locals feel lucky to live in, the one visitors immediately understand. In Spokane, that neighborhood is the **South Hill**. And when you stay at Manito Bungalow, you're right in the heart of it.

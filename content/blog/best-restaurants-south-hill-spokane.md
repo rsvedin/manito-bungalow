@@ -1,8 +1,9 @@
 ---
 title: "The Best Restaurants Near Manito Bungalow"
-date: "2023-09-28"
+date: "2024-02-20"
 excerpt: "From craft gastropubs to fine dining, here are the South Hill restaurants we recommend to every guest."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/027be553.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "South Hill", "Restaurants", "Food", "Craft Beer"]
 ---
 
 One of the best parts of staying on Spokane's South Hill is the dining. Here are the restaurants we send every guest to — all within easy reach of Manito Bungalow.

@@ -1,8 +1,9 @@
 ---
 title: "Your Complete Guide to Manito Park in Spokane"
-date: "2023-11-08"
+date: "2024-04-15"
 excerpt: "Manito Park is just one block from Manito Bungalow. Explore 90 acres of gardens, a Japanese garden, conservatory & more. Your guide to Spokane's crown jewel."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "https://static.spokanecity.org/photos/2013/08/28/duncan-garden-manito-park/16x3/Full/duncan-garden-manito-park.jpg"
+tags: ["Spokane", "South Hill", "Manito Park", "Family", "Outdoors"]
 ---
 
 If you're looking for a reason to visit Spokane — or a reason to stay on the South Hill — **Manito Park** might be the best one there is. And if you're staying at Manito Bungalow, you're exactly **one block away** from 90 acres of botanical gardens, wooded paths, and some of the most peaceful scenery in the Pacific Northwest.

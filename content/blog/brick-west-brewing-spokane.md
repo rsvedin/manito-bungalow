@@ -3,6 +3,7 @@ title: "Brick West Brewing — Industrial-Chic Craft Beer Downtown"
 date: "2024-06-28"
 excerpt: "Brick West Brewing is a downtown Spokane brewery with great craft beer, a group-friendly industrial space, and a lively events calendar. 10 minutes from Manito Bungalow."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Craft Beer", "Breweries", "Downtown", "Events"]
 ---
 
 **Brick West Brewing** is the kind of place that feels like it was designed for a good time with a group. Located in downtown Spokane's west end, this brewery occupies a gorgeous industrial space and fills it with excellent craft beer, solid food, and an energy that's hard to beat on a Friday night.

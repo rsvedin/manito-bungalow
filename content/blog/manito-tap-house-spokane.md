@@ -1,8 +1,9 @@
 ---
 title: "Manito Tap House — The Gastropub Next Door"
-date: "2024-02-22"
+date: "2024-06-15"
 excerpt: "Manito Tap House is a 3-minute walk from Manito Bungalow. 50 craft taps, organic-certified, legendary burgers & scratch-made food on Grand Blvd, South Hill Spokane."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "South Hill", "Craft Beer", "Restaurants", "Food"]
 ---
 
 If you're staying at Manito Bungalow, **Manito Tap House** is your neighborhood gastropub — and it's a three-minute walk from the front door. That alone would be enough to recommend it, but the truth is, Manito Tap House would be a destination even if it weren't so absurdly close.

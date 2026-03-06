@@ -3,6 +3,7 @@ title: "Wooden City — Spokane's Most Exciting Restaurant"
 date: "2024-10-30"
 excerpt: "Wooden City in downtown Spokane serves inventive New American cuisine with wood-fired pizzas and gourmet burgers. 10 minutes from Manito Bungalow. Reserve ahead."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Food", "Restaurants", "Downtown"]
 ---
 
 Every city has that one restaurant people can't stop talking about. In Spokane, it's **Wooden City**. Tucked into downtown on Riverside Avenue, this New American spot has earned a reputation as one of the most exciting restaurants in the Inland Northwest — and after one meal here, you'll know why the buzz is real.

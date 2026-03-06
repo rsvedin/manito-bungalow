@@ -3,6 +3,7 @@ title: "The Best Brewpubs in Spokane — A Local's Guide from South Hill"
 date: "2024-05-08"
 excerpt: "Discover the best brewpubs in Spokane including No-Li, Lumberbeard, Brick West, Perry Street & more. Trivia nights, food menus, and distance from Manito Bungalow."
 coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+tags: ["Spokane", "Craft Beer", "Breweries", "South Hill", "Perry District"]
 ---
 
 Spokane's craft beer scene has exploded in recent years, and as hosts who've lived on the South Hill for years, we've had the pleasure of watching it grow. Whether you're looking for a post-hike pint, a trivia night with friends, or a full dinner paired with something hoppy, Spokane has a brewpub for you.
