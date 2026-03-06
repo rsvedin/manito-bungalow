@@ -32,6 +32,7 @@ export default function Nav() {
     { href: '#neighborhood', label: 'Neighborhood' },
     { href: '#restaurants', label: 'Restaurants' },
     { href: '#events', label: 'Events' },
+    { href: '/blog', label: 'Blog' },
   ];
 
   return (
