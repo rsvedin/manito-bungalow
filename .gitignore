@@ -1,2 +1,5 @@
 node_modules/
 .next/
+
+# Claude Code — per-user local overrides
+.claude/settings.local.json
