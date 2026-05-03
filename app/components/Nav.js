@@ -27,25 +27,25 @@ export default function Nav() {
   const closeNav = () => setIsOpen(false);
 
   const links = [
-    { href: '#space', label: 'The Space' },
-    { href: '#gallery', label: 'Gallery' },
-    { href: '#neighborhood', label: 'Neighborhood' },
-    { href: '#restaurants', label: 'Restaurants' },
-    { href: '#events', label: 'Events' },
+    { href: '/#space', label: 'The Space' },
+    { href: '/#gallery', label: 'Gallery' },
+    { href: '/#neighborhood', label: 'Neighborhood' },
+    { href: '/#restaurants', label: 'Restaurants' },
+    { href: '/#events', label: 'Events' },
     { href: '/blog', label: 'Blog' },
   ];
 
   return (
     <>
       <nav id="nav" ref={navRef} aria-label="Main navigation">
-        <a href="#" className="nav-logo">Manito <em>Bungalow</em></a>
+        <a href="/" className="nav-logo">Manito <em>Bungalow</em></a>
         <ul className="nav-links">
           {links.map(l => (
             <li key={l.href}><a href={l.href}>{l.label}</a></li>
           ))}
-          <li><a href="#book" className="nav-book">Book Now</a></li>
+          <li><a href="/#book" className="nav-book">Book Now</a></li>
         </ul>
-        <a href="#book" className="nav-mobile-book">Book Now</a>
+        <a href="/#book" className="nav-mobile-book">Book Now</a>
         <button
           className="nav-burger"
           aria-label="Menu"
@@ -68,7 +68,7 @@ export default function Nav() {
         {links.map(l => (
           <a key={l.href} href={l.href} className="mn-link" onClick={closeNav}>{l.label}</a>
         ))}
-        <a href="#book" className="mn-book" onClick={closeNav}>Book Now</a>
+        <a href="/#book" className="mn-book" onClick={closeNav}>Book Now</a>
       </div>
     </>
   );
