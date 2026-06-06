@@ -5,11 +5,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const LISTING_SRC = 'assets/images/listing';
-const HERO_SRC = 'assets/images/hero-front-of-house.png';
+const HERO_SRC = 'assets/images/hero-front-of-house.jpg';
 const OUT = 'public/images';
 
 const LISTING_WIDTHS = [480, 800, 1200];
-const HERO_WIDTHS = [800, 1200, 1535];
+const HERO_WIDTHS = [960, 1600, 2560];
 
 async function emit(src, baseName, widths, outDir) {
   const stat = fs.statSync(src);
