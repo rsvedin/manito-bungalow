@@ -13,7 +13,7 @@ const jsonLd = {
   name: 'Manito Bungalow',
   description: listing.description_summary,
   url: 'https://manitobungalow.com',
-  image: 'https://manitobungalow.com/images/hero-front-of-house-1535.webp',
+  image: 'https://manitobungalow.com/images/hero-front-of-house-1895.webp',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Spokane',
@@ -43,7 +43,7 @@ export default function Home() {
         {/* HERO */}
         <section id="hero">
           <div className="hero-bg" style={{
-            backgroundImage: "linear-gradient(to bottom, rgba(23,20,15,0.25) 0%, rgba(23,20,15,0.78) 100%), url('/images/hero-front-of-house-1535.webp')"
+            backgroundImage: "linear-gradient(to bottom, rgba(23,20,15,0.25) 0%, rgba(23,20,15,0.78) 100%), url('/images/hero-front-of-house-1895.webp')"
           }} />
           <div className="hero-content">
             <p className="hero-eyebrow">Spokane, Washington · Historic South Hill</p>
