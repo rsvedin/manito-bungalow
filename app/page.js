@@ -125,8 +125,8 @@ export default function Home() {
         <section id="amenities" className="on-warm">
           <div className="container">
             <div style={{ textAlign: 'center', marginBottom: 48 }}>
-              <p className="section-label" style={{ justifyContent: 'center' }}>Where You&apos;ll Sleep</p>
-              <h2 className="section-h2">Five beds. <em>Zero compromises.</em></h2>
+              <p className="section-label" style={{ justifyContent: 'center' }}>Sleeping Arrangements</p>
+              <h2 className="section-h2">Where you&apos;ll <em>sleep.</em></h2>
             </div>
             <div className="sleep-grid">
               {sleeping.map(s => (
@@ -137,8 +137,8 @@ export default function Home() {
               ))}
             </div>
             <div style={{ textAlign: 'center', margin: '72px 0 40px' }}>
-              <p className="section-label" style={{ justifyContent: 'center' }}>Everything Included</p>
-              <h2 className="section-h2" style={{ fontSize: 'clamp(28px, 3vw, 40px)' }}>If you need it, <em>it&apos;s here.</em></h2>
+              <p className="section-label" style={{ justifyContent: 'center' }}>Amenities</p>
+              <h2 className="section-h2" style={{ fontSize: 'clamp(28px, 3vw, 40px)' }}>Everything <em>included.</em></h2>
             </div>
             <div className="amenities-groups">
               {amenityGroups.map(g => (
