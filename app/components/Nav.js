@@ -28,9 +28,9 @@ export default function Nav() {
 
   const links = [
     { href: '/#space', label: 'The Space' },
-    { href: '/#gallery', label: 'Gallery' },
+    { href: '/photos', label: 'Photos' },
+    { href: '/#amenities', label: 'Amenities' },
     { href: '/#neighborhood', label: 'Neighborhood' },
-    { href: '/#restaurants', label: 'Restaurants' },
     { href: '/#events', label: 'Events' },
     { href: '/blog', label: 'Blog' },
   ];

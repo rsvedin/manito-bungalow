@@ -3,23 +3,52 @@ import FadeUp from './components/FadeUp';
 import GalleryGrid, { galleryImages } from './components/GalleryGrid';
 import PhotoStrip from './components/PhotoStrip';
 import Lightbox from './components/Lightbox';
+import ReviewsStrip from './components/ReviewsStrip';
+import { listing, rating, sleeping, amenityGroups, BOOKING, imgSrc, imgSrcSet } from '../lib/listing';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'VacationRental',
+  additionalType: 'House',
+  name: 'Manito Bungalow',
+  description: listing.description_summary,
+  url: 'https://manitobungalow.com',
+  image: 'https://manitobungalow.com/images/hero-front-of-house-1535.webp',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Spokane',
+    addressRegion: 'WA',
+    addressCountry: 'US',
+  },
+  geo: { '@type': 'GeoCoordinates', latitude: listing.location.lat, longitude: listing.location.lng },
+  numberOfRooms: 3,
+  occupancy: { '@type': 'QuantitativeValue', maxValue: 10 },
+  petsAllowed: true,
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: rating.overall,
+    reviewCount: rating.count,
+    bestRating: 5,
+  },
+};
 
 export default function Home() {
   return (
     <>
       <a href="#main-content" className="skip-link">Skip to main content</a>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Nav />
 
       <main id="main-content">
         {/* HERO */}
         <section id="hero">
           <div className="hero-bg" style={{
-            backgroundImage: "linear-gradient(to bottom, rgba(23,20,15,0.25) 0%, rgba(23,20,15,0.78) 100%), url('https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1800&ra=fit')"
+            backgroundImage: "linear-gradient(to bottom, rgba(23,20,15,0.25) 0%, rgba(23,20,15,0.78) 100%), url('/images/hero-front-of-house-1535.webp')"
           }} />
           <div className="hero-content">
             <p className="hero-eyebrow">Spokane, Washington · Historic South Hill</p>
             <h1 className="hero-headline">Spokane&apos;s <em>Favorite</em><br/>Bungalow.</h1>
-            <a href="#book" className="hero-cta">Check Availability</a>
+            <a href="#book" className="hero-cta">Book Direct &amp; Save</a>
           </div>
           <div className="hero-stats">
             <div className="hero-stat"><span className="hero-stat-num">3</span><span className="hero-stat-label">Bedrooms</span></div>
@@ -34,11 +63,11 @@ export default function Home() {
             <div className="why-inner">
               <h2 className="why-headline">Why guests<br/>keep coming<br/><em>back.</em></h2>
               <ul className="why-list">
-                <li>A beautifully restored 1910 bungalow — all original character, none of the compromise.</li>
+                <li>A beautifully restored 1911 bungalow — all original character, none of the compromise.</li>
                 <li>One block from Manito Park&apos;s rose gardens, Japanese garden, and duck pond.</li>
                 <li>Sleeps up to 10 across three bedrooms — perfect for families, reunions, and friend groups.</li>
-                <li>Rated top 10% on VRBO with a perfect 10/10 score. Loved by guests, obsessed over by hosts.</li>
-                <li>Pet-friendly, fully stocked kitchen, washer/dryer — everything to feel genuinely at home.</li>
+                <li>Rated ★{rating.overall} across {rating.count} reviews. Loved by guests, obsessed over by hosts.</li>
+                <li>Pet-friendly with a fully fenced backyard, stocked kitchen, washer/dryer — genuinely at home.</li>
                 <li>Steps from Spokane&apos;s best events: Hoopfest, Bloomsday, Pig Out in the Park, and more.</li>
               </ul>
             </div>
@@ -51,14 +80,14 @@ export default function Home() {
             <div className="split">
               <FadeUp className="split-img">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/027be553.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="Manito Bungalow living area" loading="lazy" />
-                <div className="split-img-badge">1,500 sq ft · Est. 1910</div>
+                <img src={imgSrc('living-room-1-02', 1200)} srcSet={imgSrcSet('living-room-1-02')} sizes="(max-width: 900px) 100vw, 50vw" alt="Manito Bungalow living room with gas fireplace" loading="lazy" />
+                <div className="split-img-badge">1,500 sq ft · Est. 1911</div>
               </FadeUp>
               <FadeUp className="split-text">
                 <p className="section-label">The Space</p>
                 <h2 className="section-h2">A bungalow that feels<br/>like it was <em>made for you.</em></h2>
-                <p className="section-body">Step inside and feel the difference between a rental and a home. Original hardwood floors, high ceilings, and thoughtfully curated furnishings give Manito Bungalow a warmth that photos can&apos;t quite capture — but guests never forget.</p>
-                <p className="section-body" style={{ marginTop: 16 }}>Three well-appointed bedrooms sleep up to 10. The full kitchen is stocked for everything from morning coffee to a proper dinner party. There&apos;s a washer and dryer for longer stays, and an outdoor space that&apos;s all yours.</p>
+                <p className="section-body">Step inside and feel the difference between a rental and a home. Original hardwood floors, period details, and a warm gas fireplace give Manito Bungalow a warmth that photos can&apos;t quite capture — but guests never forget.</p>
+                <p className="section-body" style={{ marginTop: 16 }}>Two living rooms — a 75&quot; Smart TV with Sonos downstairs, a 65&quot; TV upstairs for when the group splits up. A dedicated desk with a 32&quot; monitor for remote work. And a fully fenced backyard your dog will love as much as you do.</p>
                 <div className="amenity-grid">
                   <div className="amenity-pill"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>3 Bedrooms</div>
                   <div className="amenity-pill"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l3 3"/></svg>Sleeps 10</div>
@@ -66,10 +95,10 @@ export default function Home() {
                   <div className="amenity-pill"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg>Full Kitchen</div>
                   <div className="amenity-pill"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>Washer &amp; Dryer</div>
                   <div className="amenity-pill"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>Pet Friendly</div>
-                  <div className="amenity-pill"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Outdoor Space</div>
+                  <div className="amenity-pill"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Fenced Backyard</div>
                   <div className="amenity-pill"><svg viewBox="0 0 24 24" fill="none" strokeWidth="1.5" aria-hidden="true"><path d="M3 9l9-7 9 7"/><rect x="6" y="12" width="4" height="9"/><rect x="14" y="12" width="4" height="9"/></svg>Air Conditioning</div>
                 </div>
-                <a href="#book" className="link-arrow">See all amenities</a>
+                <a href="#amenities" className="link-arrow">See all amenities</a>
               </FadeUp>
             </div>
             <PhotoStrip />
@@ -86,18 +115,50 @@ export default function Home() {
             </div>
             <GalleryGrid />
             <div style={{ textAlign: 'center', marginTop: 32 }}>
-              <p style={{ fontSize: 13, color: 'var(--text-light)' }}>More photos coming soon — or view the full gallery on <a href="https://www.vrbo.com/3803640" target="_blank" rel="noopener noreferrer" style={{ color: '#7A5C30', textDecoration: 'underline' }}>VRBO</a>.</p>
+              <a href="/photos" className="link-arrow" style={{ justifyContent: 'center' }}>View all {listing.photos.length} photos, room by room</a>
+            </div>
+          </div>
+        </section>
+
+        {/* SLEEPING + AMENITIES */}
+        <section id="amenities" className="on-warm">
+          <div className="container">
+            <div style={{ textAlign: 'center', marginBottom: 48 }}>
+              <p className="section-label" style={{ justifyContent: 'center' }}>Where You&apos;ll Sleep</p>
+              <h2 className="section-h2">Five beds. <em>Zero compromises.</em></h2>
+            </div>
+            <div className="sleep-grid">
+              {sleeping.map(s => (
+                <div key={s.room} className="sleep-card">
+                  <div className="sleep-room">{s.room}</div>
+                  <div className="sleep-beds">{s.beds}</div>
+                </div>
+              ))}
+            </div>
+            <div style={{ textAlign: 'center', margin: '72px 0 40px' }}>
+              <p className="section-label" style={{ justifyContent: 'center' }}>Everything Included</p>
+              <h2 className="section-h2" style={{ fontSize: 'clamp(28px, 3vw, 40px)' }}>If you need it, <em>it&apos;s here.</em></h2>
+            </div>
+            <div className="amenities-groups">
+              {amenityGroups.map(g => (
+                <div key={g.group} className="amenities-group">
+                  <h3>{g.group}</h3>
+                  <ul>
+                    {g.items.map(i => <li key={i.title}>{i.title}</li>)}
+                  </ul>
+                </div>
+              ))}
             </div>
           </div>
         </section>
 
         {/* NEIGHBORHOOD */}
-        <section id="neighborhood" className="on-warm">
+        <section id="neighborhood" className="on-light">
           <div className="container">
             <div className="split reverse">
               <FadeUp className="split-img">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="Manito Bungalow exterior" loading="lazy" />
+                <img src={imgSrc('exterior-04', 1200)} srcSet={imgSrcSet('exterior-04')} sizes="(max-width: 900px) 100vw, 50vw" alt="Manito Bungalow front porch" loading="lazy" />
                 <div className="split-img-badge" style={{ background: 'var(--cream-dark)', color: '#7A5C30' }}>Manito Park · 1 block</div>
               </FadeUp>
               <FadeUp className="split-text">
@@ -192,25 +253,34 @@ export default function Home() {
           </div>
         </section>
 
+        {/* REVIEWS */}
+        <ReviewsStrip />
+
         {/* BOOK */}
         <section id="book">
           <div className="container" style={{ maxWidth: 900, textAlign: 'center' }}>
-            <p className="section-label">Direct Booking</p>
-            <h2 className="section-h2">Ready to make<br/><em>Spokane yours?</em></h2>
-            <p style={{ fontSize: '15.5px', lineHeight: 1.82, marginBottom: 40 }}>Book directly for the best rate, or check availability on VRBO and Airbnb. Either way, we can&apos;t wait to host you.</p>
+            <p className="section-label" style={{ justifyContent: 'center' }}>Direct Booking</p>
+            <h2 className="section-h2">Same home. <em>Better rate.</em></h2>
+            <p style={{ fontSize: '15.5px', lineHeight: 1.82, marginBottom: 28 }}>Booking platforms add a service fee on top of our nightly rate. Book directly below and that fee stays in your pocket — same home, same hosts, same five-star stay.</p>
+            <div className="pitch-points">
+              <div className="pitch-point"><strong>Best rate, guaranteed</strong>No platform service fees — book direct and save.</div>
+              <div className="pitch-point"><strong>Talk to your hosts</strong>Questions answered within the hour, before and during your stay.</div>
+              <div className="pitch-point"><strong>Secure checkout</strong>Payments handled by Hospitable + Stripe, with instant confirmation.</div>
+            </div>
             <iframe
               id="booking-iframe"
               title="Book Manito Bungalow"
               sandbox="allow-top-navigation allow-scripts allow-same-origin"
               style={{ width: '100%', height: 900, border: 'none', borderRadius: 4 }}
               loading="lazy"
-              src="https://booking.hospitable.com/widget/a13c6964-ae97-4821-a25c-70cda0de762d/1289150"
+              src={BOOKING.widgetSrc}
             />
-            <div style={{ display: 'flex', justifyContent: 'center', gap: 16, flexWrap: 'wrap', marginTop: 40 }}>
-              <a href="https://www.vrbo.com/3803640" target="_blank" rel="noopener noreferrer" className="btn-primary">Book on VRBO</a>
-              <a href="https://www.airbnb.com/rooms/1049335217620947625" target="_blank" rel="noopener noreferrer" className="btn-outline">Book on Airbnb</a>
-            </div>
-            <p style={{ marginTop: 32, fontSize: 13, color: 'var(--text-light)' }}>Questions? <a href="mailto:rsvedin@gmail.com" style={{ color: '#7A5C30', textDecoration: 'underline' }}>Get in touch</a></p>
+            <p style={{ marginTop: 36, fontSize: 13, color: 'var(--text-light)' }}>
+              Prefer to book on a platform? We&apos;re also on{' '}
+              <a href={BOOKING.vrbo} target="_blank" rel="noopener noreferrer" style={{ color: '#7A5C30', textDecoration: 'underline' }}>VRBO</a> and{' '}
+              <a href={BOOKING.airbnb} target="_blank" rel="noopener noreferrer" style={{ color: '#7A5C30', textDecoration: 'underline' }}>Airbnb</a>.
+            </p>
+            <p style={{ marginTop: 16, fontSize: 13, color: 'var(--text-light)' }}>Questions? <a href="mailto:rsvedin@gmail.com" style={{ color: '#7A5C30', textDecoration: 'underline' }}>Get in touch</a></p>
           </div>
         </section>
       </main>
@@ -221,16 +291,17 @@ export default function Home() {
           <div className="footer-inner">
             <div>
               <div className="footer-name">Manito Bungalow</div>
-              <p className="footer-desc">A beautifully restored 1910 craftsman bungalow on Spokane&apos;s beloved South Hill — one block from Manito Park.</p>
-              <a href="https://www.vrbo.com/3803640" target="_blank" rel="noopener noreferrer" className="footer-cta">Book Your Stay</a>
+              <p className="footer-desc">A beautifully restored 1911 craftsman bungalow on Spokane&apos;s beloved South Hill — one block from Manito Park.</p>
+              <a href="#book" className="footer-cta">Book Your Stay</a>
             </div>
             <div>
               <div className="footer-col-title">The Property</div>
               <ul className="footer-links">
                 <li><a href="#space">The Space</a></li>
+                <li><a href="/photos">All Photos</a></li>
+                <li><a href="#amenities">Amenities</a></li>
                 <li><a href="#neighborhood">The Neighborhood</a></li>
-                <li><a href="#book">Book on VRBO</a></li>
-                <li><a href="#book">Book on Airbnb</a></li>
+                <li><a href="#book">Book Direct</a></li>
               </ul>
             </div>
             <div>
@@ -239,7 +310,6 @@ export default function Home() {
                 <li><a href="#restaurants">Restaurants</a></li>
                 <li><a href="#events">Annual Events</a></li>
                 <li><a href="#neighborhood">Manito Park</a></li>
-                <li><a href="#neighborhood">What&apos;s Nearby</a></li>
                 <li><a href="/blog">Blog</a></li>
               </ul>
             </div>
@@ -247,14 +317,14 @@ export default function Home() {
               <div className="footer-col-title">Connect</div>
               <ul className="footer-links">
                 <li><a href="https://www.instagram.com/manitobungalow/" target="_blank" rel="noopener noreferrer">@manitobungalow</a></li>
-                <li><a href="mailto:rsvedin@gmail.com">manitobungalow@gmail.com</a></li>
-                <li><a href="https://www.vrbo.com/3803640" target="_blank" rel="noopener noreferrer">VRBO Listing</a></li>
-                <li><a href="https://www.airbnb.com/rooms/1049335217620947625" target="_blank" rel="noopener noreferrer">Airbnb Listing</a></li>
+                <li><a href="mailto:rsvedin@gmail.com">Email us</a></li>
+                <li><a href={BOOKING.vrbo} target="_blank" rel="noopener noreferrer">VRBO Listing</a></li>
+                <li><a href={BOOKING.airbnb} target="_blank" rel="noopener noreferrer">Airbnb Listing</a></li>
               </ul>
             </div>
           </div>
           <div className="footer-bottom">
-            <p className="footer-copy">© 2025 Manito Bungalow · Spokane, Washington</p>
+            <p className="footer-copy">© 2026 Manito Bungalow · Spokane, Washington</p>
             <div className="footer-legal">
               <a href="#">Privacy</a>
               <a href="#">House Rules</a>
