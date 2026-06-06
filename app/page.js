@@ -4,6 +4,7 @@ import GalleryGrid, { galleryImages } from './components/GalleryGrid';
 import PhotoStrip from './components/PhotoStrip';
 import Lightbox from './components/Lightbox';
 import ReviewsStrip from './components/ReviewsStrip';
+import BookBars from './components/BookBars';
 import { listing, rating, sleeping, amenityGroups, BOOKING, imgSrc, imgSrcSet } from '../lib/listing';
 
 const jsonLd = {
@@ -40,37 +41,40 @@ export default function Home() {
       <Nav />
 
       <main id="main-content">
-        {/* HERO */}
-        <section id="hero">
-          <div className="hero-bg" style={{
-            backgroundImage: "url('/images/hero-front-of-house-2560.webp')"
-          }} />
-          <div className="hero-scrim" aria-hidden="true" />
-          <div className="hero-content">
-            <p className="hero-eyebrow">Spokane, Washington · Historic South Hill</p>
-            <h1 className="hero-headline">Spokane&apos;s <em>Favorite</em><br/>Bungalow.</h1>
-            <a href="#book" className="hero-cta">Book Direct &amp; Save</a>
+        {/* HERO — split: value proposition left, photo right */}
+        <section id="hero" className="hero-split">
+          <div className="hero-copy">
+            <p className="hero-eyebrow">South Hill · Spokane, Washington</p>
+            <h1 className="hero-headline">A historic bungalow,<br/><em>one block</em> from Manito Park.</h1>
+            <p className="hero-sub">A restored 1911 craftsman for families, friend groups, and dogs. Two living rooms, a fully stocked kitchen, and a fenced backyard.</p>
+            <p className="hero-proof">★ {rating.overall} · {rating.count} reviews &nbsp;·&nbsp; Guest Favorite on Airbnb &nbsp;·&nbsp; 9.6/10 on VRBO</p>
+            <div className="hero-ctas">
+              <a href="#book" className="hero-cta">Check Availability</a>
+              <a href="/photos" className="hero-cta-secondary">View Photos</a>
+            </div>
+            <p className="hero-feenote">No Airbnb or VRBO service fees when you book direct.</p>
           </div>
-          <div className="hero-stats">
-            <div className="hero-stat"><span className="hero-stat-num">3</span><span className="hero-stat-label">Bedrooms</span></div>
-            <div className="hero-stat"><span className="hero-stat-num">10</span><span className="hero-stat-label">Guests</span></div>
-            <div className="hero-stat"><span className="hero-stat-num">1 blk</span><span className="hero-stat-label">to Manito Park</span></div>
+          <div className="hero-photo">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/images/hero-front-of-house-2560.webp" alt="Manito Bungalow — restored 1911 craftsman on Spokane's South Hill" fetchPriority="high" />
           </div>
         </section>
 
-        {/* WHY */}
-        <div id="why">
+        {/* WHY TILES */}
+        <div id="why-tiles">
           <div className="container">
-            <div className="why-inner">
-              <h2 className="why-headline">Why guests<br/>keep coming<br/><em>back.</em></h2>
-              <ul className="why-list">
-                <li>A beautifully restored 1911 bungalow — all original character, none of the compromise.</li>
-                <li>One block from Manito Park&apos;s rose gardens, Japanese garden, and duck pond.</li>
-                <li>Sleeps up to 10 across three bedrooms — perfect for families, reunions, and friend groups.</li>
-                <li>Rated ★{rating.overall} across {rating.count} reviews. Loved by guests, obsessed over by hosts.</li>
-                <li>Pet-friendly with a fully fenced backyard, stocked kitchen, washer/dryer — genuinely at home.</li>
-                <li>Steps from Spokane&apos;s best events: Hoopfest, Bloomsday, Pig Out in the Park, and more.</li>
-              </ul>
+            <p className="why-tiles-title">Why guests choose Manito Bungalow</p>
+            <div className="why-tiles-grid">
+              {[
+                { icon: '🏞', label: '1 block to Manito Park' },
+                { icon: '🐶', label: 'Fenced pet-friendly yard' },
+                { icon: '🛏', label: 'Sleeps 10 · 3 BR · 2 BA' },
+                { icon: '🍳', label: 'Fully stocked kitchen' },
+                { icon: '📍', label: 'Historic South Hill' },
+                { icon: '⭐', label: `${rating.overall} guest rating` },
+              ].map(t => (
+                <div key={t.label} className="why-tile"><span aria-hidden="true">{t.icon}</span>{t.label}</div>
+              ))}
             </div>
           </div>
         </div>
@@ -261,8 +265,8 @@ export default function Home() {
         <section id="book">
           <div className="container" style={{ maxWidth: 900, textAlign: 'center' }}>
             <p className="section-label" style={{ justifyContent: 'center' }}>Direct Booking</p>
-            <h2 className="section-h2">Same home. <em>Better rate.</em></h2>
-            <p style={{ fontSize: '15.5px', lineHeight: 1.82, marginBottom: 28 }}>Booking platforms add a service fee on top of our nightly rate. Book directly below and that fee stays in your pocket — same home, same hosts, same five-star stay.</p>
+            <h2 className="section-h2" style={{ fontSize: 'clamp(42px, 5vw, 68px)' }}>Same home. <em>Better rate.</em></h2>
+            <p style={{ fontSize: '17.5px', lineHeight: 1.8, marginBottom: 32, maxWidth: 640, marginLeft: 'auto', marginRight: 'auto' }}>Booking platforms add a service fee on top of our nightly rate. Book directly below and that fee stays in your pocket — same home, same hosts, same five-star stay.</p>
             <div className="pitch-points">
               <div className="pitch-point"><strong>Best rate, guaranteed</strong>No platform service fees — book direct and save.</div>
               <div className="pitch-point"><strong>Talk to your hosts</strong>Questions answered within the hour, before and during your stay.</div>
@@ -272,11 +276,11 @@ export default function Home() {
               id="booking-iframe"
               title="Book Manito Bungalow"
               sandbox="allow-top-navigation allow-scripts allow-same-origin"
-              style={{ width: '100%', height: 900, border: 'none', borderRadius: 4 }}
+              style={{ width: '100%', height: 760, border: 'none', borderRadius: 4 }}
               loading="lazy"
               src={BOOKING.widgetSrc}
             />
-            <p style={{ marginTop: 36, fontSize: 13, color: 'var(--text-light)' }}>
+            <p style={{ marginTop: 8, fontSize: 13, color: 'var(--text-light)' }}>
               Prefer to book on a platform? We&apos;re also on{' '}
               <a href={BOOKING.vrbo} target="_blank" rel="noopener noreferrer" style={{ color: '#7A5C30', textDecoration: 'underline' }}>VRBO</a> and{' '}
               <a href={BOOKING.airbnb} target="_blank" rel="noopener noreferrer" style={{ color: '#7A5C30', textDecoration: 'underline' }}>Airbnb</a>.
@@ -335,6 +339,7 @@ export default function Home() {
         </div>
       </footer>
 
+      <BookBars />
       <Lightbox images={galleryImages} />
     </>
   );
