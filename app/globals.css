@@ -54,6 +54,8 @@ body { background: var(--ink); color: var(--cream); font-family: 'Jost', sans-se
   display: flex; align-items: flex-end; padding-bottom: 64px; overflow: hidden;
 }
 .hero-bg { position: absolute; inset: 0; background: var(--ink); background-size: cover; background-position: center; }
+/* Text-legibility scrim confined to the bottom band — the photo itself stays undimmed. */
+.hero-scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(23,20,15,0.62) 0%, rgba(23,20,15,0.18) 26%, transparent 42%); pointer-events: none; }
 .hero-content { position: relative; z-index: 2; padding: 0 72px; max-width: 860px; }
 .hero-eyebrow { font-size: 11px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--sand); margin-bottom: 22px; display: flex; align-items: center; gap: 14px; }
 .hero-eyebrow::before { content: ''; display: block; width: 36px; height: 1px; background: var(--sand); }

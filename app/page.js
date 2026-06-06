@@ -43,8 +43,9 @@ export default function Home() {
         {/* HERO */}
         <section id="hero">
           <div className="hero-bg" style={{
-            backgroundImage: "linear-gradient(to bottom, rgba(23,20,15,0.25) 0%, rgba(23,20,15,0.78) 100%), url('/images/hero-front-of-house-2560.webp')"
+            backgroundImage: "url('/images/hero-front-of-house-2560.webp')"
           }} />
+          <div className="hero-scrim" aria-hidden="true" />
           <div className="hero-content">
             <p className="hero-eyebrow">Spokane, Washington · Historic South Hill</p>
             <h1 className="hero-headline">Spokane&apos;s <em>Favorite</em><br/>Bungalow.</h1>
