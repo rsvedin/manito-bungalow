@@ -38,5 +38,7 @@ for (const f of fs.readdirSync(LISTING_SRC).filter(f => f.endsWith('.jpg'))) {
   );
 }
 total += await emit(HERO_SRC, 'hero-front-of-house', HERO_WIDTHS, OUT);
+// Image-led hero uses the living room shot at full-bleed widths.
+total += await emit('assets/images/listing/living-room-1-01.jpg', 'hero-living-room', HERO_WIDTHS, OUT);
 
 console.log(`build-images: ${total} file(s) written`);

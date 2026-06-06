@@ -41,9 +41,12 @@ export default function Home() {
       <Nav />
 
       <main id="main-content">
-        {/* HERO — split: value proposition left, photo right */}
-        <section id="hero" className="hero-split">
-          <div className="hero-copy">
+        {/* HERO — image-led with lower-left overlay */}
+        <section id="hero" className="hero-led">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="hero-led-img" src="/images/hero-living-room-2560.webp" srcSet="/images/hero-living-room-960.webp 960w, /images/hero-living-room-1600.webp 1600w, /images/hero-living-room-2560.webp 2560w" sizes="100vw" alt="Manito Bungalow living room — gas fireplace and deep sectionals" fetchPriority="high" />
+          <div className="hero-led-scrim" aria-hidden="true" />
+          <div className="hero-led-copy">
             <p className="hero-eyebrow">South Hill · Spokane, Washington</p>
             <h1 className="hero-headline">A historic bungalow,<br/><em>one block</em> from Manito Park.</h1>
             <p className="hero-sub">A restored 1911 craftsman for families, friend groups, and dogs. Two living rooms, a fully stocked kitchen, and a fenced backyard.</p>
@@ -54,27 +57,17 @@ export default function Home() {
             </div>
             <p className="hero-feenote">No Airbnb or VRBO service fees when you book direct.</p>
           </div>
-          <div className="hero-photo">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/hero-front-of-house-2560.webp" alt="Manito Bungalow — restored 1911 craftsman on Spokane's South Hill" fetchPriority="high" />
-          </div>
         </section>
 
-        {/* WHY TILES */}
-        <div id="why-tiles">
+        {/* TRUST / STATS ROW */}
+        <div id="stats-row">
           <div className="container">
-            <p className="why-tiles-title">Why guests choose Manito Bungalow</p>
-            <div className="why-tiles-grid">
-              {[
-                { icon: '🏞', label: '1 block to Manito Park' },
-                { icon: '🐶', label: 'Fenced pet-friendly yard' },
-                { icon: '🛏', label: 'Sleeps 10 · 3 BR · 2 BA' },
-                { icon: '🍳', label: 'Fully stocked kitchen' },
-                { icon: '📍', label: 'Historic South Hill' },
-                { icon: '⭐', label: `${rating.overall} guest rating` },
-              ].map(t => (
-                <div key={t.label} className="why-tile"><span aria-hidden="true">{t.icon}</span>{t.label}</div>
-              ))}
+            <div className="stats-row-grid">
+              <div className="stat-tile"><span className="stat-big">1 Block</span><span className="stat-sub">from Manito Park</span></div>
+              <div className="stat-tile"><span className="stat-big">Sleeps 10</span><span className="stat-sub">3 bedrooms · 2 bathrooms</span></div>
+              <div className="stat-tile"><span className="stat-big">Pet Friendly</span><span className="stat-sub">fully fenced backyard</span></div>
+              <div className="stat-tile"><span className="stat-big">{rating.overall} ★</span><span className="stat-sub">{rating.count} guest reviews</span></div>
+              <div className="stat-tile"><span className="stat-big">Book Direct</span><span className="stat-sub">no platform service fees</span></div>
             </div>
           </div>
         </div>
