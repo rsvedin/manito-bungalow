@@ -9,7 +9,7 @@ session**, update `STATUS.md` in this folder:
 - Add a dated bullet to `## Log` summarizing what you did
 - Keep it terse — one or two sentences per log entry
 
-Then run `python3 ~/Documents/Projects/.dashboard/scan.py` to refresh the dashboard.
+Then run `python3 ~/Projects/.dashboard/scan.py` to refresh the dashboard.
 
 ## Overview
 SEO-optimized marketing site for a Spokane vacation rental. Next.js 16 with React 19, Remark-based Markdown blog, deployed via GitHub Pages.
