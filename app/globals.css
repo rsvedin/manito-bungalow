@@ -41,7 +41,9 @@ body { background: var(--ink); color: var(--cream); font-family: 'Jost', sans-se
 .nav-mobile-book:hover { background: var(--sand); color: var(--ink); }
 
 /* ── HERO ────────────────────────────────────────── */
-#hero { position: relative; height: 100vh; min-height: 640px; display: flex; align-items: flex-end; padding-bottom: 80px; overflow: hidden; }
+/* Height tracks the 16:9 hero photo (56.25vw) so the full image is always
+   visible — no cover-cropping "zoom" on desktop, whatever the window shape. */
+#hero { position: relative; height: min(100vh, 56.25vw); min-height: 640px; display: flex; align-items: flex-end; padding-bottom: 80px; overflow: hidden; }
 .hero-bg { position: absolute; inset: 0; background: var(--ink); background-size: cover; background-position: center; }
 .hero-content { position: relative; z-index: 2; padding: 0 72px; max-width: 860px; }
 .hero-eyebrow { font-size: 11px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: var(--sand); margin-bottom: 22px; display: flex; align-items: center; gap: 14px; }
