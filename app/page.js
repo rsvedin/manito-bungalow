@@ -165,7 +165,7 @@ export default function Home() {
               <FadeUp className="split-text">
                 <p className="section-label">The Neighborhood</p>
                 <h2 className="section-h2">Historic South Hill.<br/><em>Walkable.</em> Wonderful.</h2>
-                <p className="section-body">The South Hill is where Spokane exhales. Tree-lined streets, handsome craftsman homes, and a genuine sense of community that visitors notice immediately — and locals have protected for a century.</p>
+                <p className="section-body">The South Hill is Spokane&apos;s most established neighborhood — tree-lined streets, craftsman homes that have stood for a century, and the city&apos;s best parks, bakeries, and restaurants within a short walk.</p>
                 <p className="section-body" style={{ marginTop: 16 }}>Manito Park is Spokane&apos;s crown jewel: 90 acres of rose gardens, a Japanese garden, a conservatory, and a mirror pond ringed by old-growth trees. It&apos;s one block away and completely free to explore.</p>
                 <div className="nbhd-grid">
                   {[
@@ -194,7 +194,7 @@ export default function Home() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: 24 }}>
               <div>
                 <p className="section-label">Eat &amp; Drink</p>
-                <h2 className="section-h2">Our favorite tables,<br/><em>all within reach.</em></h2>
+                <h2 className="section-h2">Six spots we<br/><em>always recommend.</em></h2>
               </div>
               <p style={{ fontSize: 15, lineHeight: 1.8, color: 'var(--text-on-dark)', maxWidth: 340, margin: '0 0 28px' }}>Spokane&apos;s South Hill has a quietly excellent dining scene. Here are the spots we send every guest.</p>
             </div>
