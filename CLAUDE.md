@@ -29,4 +29,5 @@ npm test             # Jest + jsdom tests
 - `BLOG-PLAN.md` — 30-post SEO content plan with batches
 
 ## Deployment
-Push to `main` branch to deploy via GitHub Pages.
+Hosted on Vercel (NOT GitHub Pages — `has_pages` is false on the repo).
+Push to `main` auto-deploys. Legacy `/blog/<slug>.html` URLs 301 via vercel.json.

@@ -1,39 +1,45 @@
 # Manito Bungalow
 
-Website for Manito Bungalow — a beautifully restored 1920s craftsman bungalow on Spokane's South Hill, one block from Manito Park.
+Website for Manito Bungalow — a beautifully restored 1911 craftsman bungalow on Spokane's South Hill, one block from Manito Park.
 
 **Live site:** [manitobungalow.com](https://manitobungalow.com)
 
 ## Structure
 
 ```
-├── index.html              # Main website (single page)
-├── CNAME                   # Custom domain config for GitHub Pages
+├── app/                    # Next.js app router (homepage, /photos, /blog)
+├── content/blog/           # Markdown blog posts (30-post SEO plan, see BLOG-PLAN.md)
+├── lib/                    # Blog utilities + listing-data helpers
 ├── assets/
-│   └── images/             # Local images (add property photos here)
-├── index.test.js           # Unit tests (Jest + jsdom)
-└── package.json
+│   ├── listing-data.json   # Structured listing data scraped from Airbnb (see LISTING.md)
+│   └── images/listing/     # Full-res property photos, named by room
+├── scripts/build-images.mjs # prebuild: assets/images → public/images responsive WebP
+├── public/                 # Static assets (generated images are gitignored)
+└── LISTING.md              # Human-readable listing reference
 ```
-
-## Images
-
-The site currently loads images from VRBO CDN URLs. To use local images instead:
-
-1. Add photos to `assets/images/`
-2. Update `src` attributes in `index.html` to point to `assets/images/filename.jpg`
-3. Recommended: optimize images before uploading (compress to WebP or JPEG, max 1800px wide for hero, 1200px for split sections, 900px for photo strip)
 
 ## Development
 
 ```bash
-# Run tests
-npm test
+npm run dev          # Local dev server
+npm run build        # Static export to out/ (runs image pipeline via prebuild)
 ```
+
+## Images
+
+Property photos live in `assets/images/listing/` at full resolution, named by
+room (`living-room-1-01.jpg`, …). `scripts/build-images.mjs` converts them to
+responsive WebP in `public/images/` at build time — never hand-edit
+`public/images/`.
 
 ## Booking
 
-Direct bookings are powered by [Hospitable](https://hospitable.com) via an embedded widget. VRBO and Airbnb links are also provided.
+Direct bookings are powered by [Hospitable](https://hospitable.com) via the
+embedded widget in the `#book` section. Amenities, sleeping arrangements, and
+ratings render from `assets/listing-data.json` so the site can't drift from
+the real listing.
 
 ## Deployment
 
-The site is deployed via GitHub Pages from the `main` branch root. Push to `main` to deploy.
+Hosted on **Vercel**, auto-deployed on push to `main`. Legacy
+`/blog/<slug>.html` URLs 301 to clean paths via `vercel.json`.
