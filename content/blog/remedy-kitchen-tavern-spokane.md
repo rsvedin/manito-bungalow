@@ -42,4 +42,4 @@ Visiting Spokane for a special occasion? Remedy has a full-service banquet hall 
 
 Remedy is the southern bookend of Grand Boulevard's restaurant scene — [Manito Tap House](/blog/manito-tap-house-spokane) anchors the northern end, just 3 minutes from the bungalow. Read about both in our [pubs on Grand guide](/blog/pubs-on-grand-boulevard-spokane).
 
-**Two excellent pubs within walking distance of your vacation rental.** [Book Manito Bungalow](https://www.vrbo.com/3803640) and skip the rideshare.
+**Two excellent pubs within walking distance of your vacation rental.** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). and skip the rideshare.

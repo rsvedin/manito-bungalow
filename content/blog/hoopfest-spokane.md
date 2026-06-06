@@ -39,4 +39,4 @@ During Hoopfest weekend, downtown Spokane hotels book up months in advance and p
 
 After a long day on the courts (or in the stands), come home to a full kitchen, a washer and dryer, and a porch where you can relax. Take a morning walk through [Manito Park](/blog/manito-park-guide) to loosen up before games, or grab a post-tournament beer at [Lumberbeard Brewing](/blog/lumberbeard-brewing-spokane), just 5 minutes away.
 
-**Hoopfest weekend fills up fast.** [Book Manito Bungalow early](https://www.vrbo.com/3803640) to secure your team's home base.
+**Hoopfest weekend fills up fast.** [Book Manito Bungalow early](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). to secure your team's home base.

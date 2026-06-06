@@ -40,4 +40,4 @@ Industrial-chic meets neighborhood warmth. The space is well-designed — high c
 
 Manito Tap House is one of two excellent pubs on Grand Boulevard — the other is [Remedy Kitchen & Tavern](/blog/remedy-kitchen-tavern-spokane), a 5-minute walk in the other direction. Read about both in our [pubs on Grand guide](/blog/pubs-on-grand-boulevard-spokane).
 
-**Want a gastropub within walking distance of your vacation rental?** [Book Manito Bungalow](https://www.vrbo.com/3803640) and Manito Tap House is practically your local.
+**Want a gastropub within walking distance of your vacation rental?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). and Manito Tap House is practically your local.

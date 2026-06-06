@@ -58,4 +58,4 @@ The Spokane Parks Foundation sponsors free swim clinics on Saturdays in July for
 
 A pool day pairs perfectly with the rest of what Spokane's South Hill has to offer. Head back to the bungalow to change, then walk to [Manito Tap House or Remedy](/blog/pubs-on-grand-boulevard-spokane) for dinner, or swing by [Lumberbeard](/blog/lumberbeard-brewing-spokane) for boneless wings and a cold beer. Summer in Spokane is pretty hard to beat.
 
-**Planning a summer trip to Spokane?** [Book Manito Bungalow](https://www.vrbo.com/3803640) — your home base for pools, parks, and everything the South Hill has to offer.
+**Planning a summer trip to Spokane?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). — your home base for pools, parks, and everything the South Hill has to offer.

@@ -82,4 +82,4 @@ Our South Hill location puts you within 10–25 minutes of every campus in the a
 - **Photos at the park:** Manito Park's Duncan Garden and rose garden make stunning graduation photo locations — and they're one block away.
 - **Post-ceremony drinks:** Head to [Manito Tap House](/blog/pubs-on-grand-boulevard-spokane) (3-minute walk) to toast the graduate.
 
-**Graduation weekend books up fast.** [Reserve Manito Bungalow](https://www.vrbo.com/3803640) now and give your graduate the celebration they deserve.
+**Graduation weekend books up fast.** [Reserve Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). now and give your graduate the celebration they deserve.

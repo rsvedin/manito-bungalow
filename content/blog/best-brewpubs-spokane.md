@@ -76,4 +76,4 @@ All of these breweries are an easy drive — or rideshare — from [Manito Bunga
 
 - [@lumberbeard](https://www.instagram.com/lumberbeard/) · [@nolibrewhouse](https://www.instagram.com/nolibrewhouse/) · [@perrystreetbrew](https://www.instagram.com/perrystreetbrew/) · [@brickwestbeer](https://www.instagram.com/brickwestbeer/) · [@whistlepunkbeer](https://www.instagram.com/whistlepunkbeer/) · [@uprisebeer](https://www.instagram.com/uprisebeer/)
 
-**Planning a Spokane brewery tour?** [Book Manito Bungalow](https://www.vrbo.com/3803640) as your home base — centrally located on the South Hill with easy access to every brewery in town.
+**Planning a Spokane brewery tour?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). as your home base — centrally located on the South Hill with easy access to every brewery in town.

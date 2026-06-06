@@ -40,4 +40,4 @@ The original taproom is in Railroad Alley in downtown Spokane — a cozy, no-fri
 
 Whistle Punk is featured in our [best Spokane brewpubs](/blog/best-brewpubs-spokane) roundup. For a completely different energy, head to [Brick West](/blog/brick-west-brewing-spokane) just a few blocks away, or make the drive to [Uprise](/blog/uprise-brewing-spokane) in Kendall Yards.
 
-**Coming to Spokane for the beer?** [Book Manito Bungalow](https://www.vrbo.com/3803640) — you'll be 10 minutes from downtown and every brewery worth visiting.
+**Coming to Spokane for the beer?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). — you'll be 10 minutes from downtown and every brewery worth visiting.

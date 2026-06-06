@@ -61,4 +61,4 @@ Here's what we tell our guests: take a late-afternoon walk through [Manito Park]
 
 **Follow Manito Tap House:** [@manitotaphouse](https://www.instagram.com/manitotaphouse/) | **Follow Remedy:** [@remedyspokane](https://www.instagram.com/remedyspokane/)
 
-**Stay within walking distance of Spokane's best pubs.** [Book Manito Bungalow](https://www.vrbo.com/3803640).
+**Stay within walking distance of Spokane's best pubs.** [Book Manito Bungalow](/#book). Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625).

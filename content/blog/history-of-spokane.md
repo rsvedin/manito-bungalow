@@ -46,4 +46,4 @@ And the South Hill — our neighborhood — remains one of the most beautiful re
 
 When you stay at [Manito Bungalow](/), you're staying in a piece of Spokane history — a lovingly restored 1920s craftsman on the South Hill, one block from the park that's been the neighborhood's heart for over a century.
 
-**Ready to explore Spokane's story?** [Book your stay at Manito Bungalow](https://www.vrbo.com/3803640).
+**Ready to explore Spokane's story?** [Book your stay at Manito Bungalow](/#book). Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625).

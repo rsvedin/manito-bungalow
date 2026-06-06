@@ -45,4 +45,4 @@ No-Li's food menu goes well beyond typical brewery fare. Expect creative pub foo
 
 No-Li pairs perfectly with a day exploring downtown Spokane or the Centennial Trail, which runs right past the brewery. For more brewery recommendations, check out our complete guide to the [best brewpubs in Spokane](/blog/best-brewpubs-spokane).
 
-**Plan your Spokane brewery tour.** [Book Manito Bungalow](https://www.vrbo.com/3803640) as your home base on the South Hill.
+**Plan your Spokane brewery tour.** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). as your home base on the South Hill.

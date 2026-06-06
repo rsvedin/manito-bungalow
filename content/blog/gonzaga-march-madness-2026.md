@@ -46,4 +46,4 @@ There's nothing quite like watching March Madness with your crew in a real livin
 - **Tickets:** [gozags.com](https://gozags.com/sports/mens-basketball)
 - **ESPN Bracketology:** Check the latest projections as Selection Sunday approaches
 
-**Planning a March Madness trip to Spokane?** [Book Manito Bungalow](https://www.vrbo.com/3803640) and watch the Zags dance from the best seat in the house.
+**Planning a March Madness trip to Spokane?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). and watch the Zags dance from the best seat in the house.

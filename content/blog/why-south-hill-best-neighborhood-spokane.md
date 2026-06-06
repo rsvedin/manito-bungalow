@@ -36,4 +36,4 @@ The South Hill's magic is its balance. You're 10 minutes from downtown Spokane �
 
 That's exactly what our guests love about staying at Manito Bungalow. You get the best of Spokane without the noise.
 
-**Experience the South Hill for yourself.** [Book Manito Bungalow](https://www.vrbo.com/3803640) — a restored 1920s craftsman, one block from Manito Park, sleeping up to 10 guests.
+**Experience the South Hill for yourself.** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). — a restored 1920s craftsman, one block from Manito Park, sleeping up to 10 guests.

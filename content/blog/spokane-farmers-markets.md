@@ -51,4 +51,4 @@ Both markets run from May through October, with the best produce selection in mi
 
 For more Spokane food experiences, check out our guides to [Lumberbeard Brewing](/blog/lumberbeard-brewing-spokane), [Wooden City](/blog/wooden-city-restaurant-spokane), and [the pubs on Grand](/blog/pubs-on-grand-boulevard-spokane).
 
-**Ready for fresh produce and craft beer?** [Book Manito Bungalow](https://www.vrbo.com/3803640) and experience Spokane like a local.
+**Ready for fresh produce and craft beer?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). and experience Spokane like a local.

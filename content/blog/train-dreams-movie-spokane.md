@@ -49,4 +49,4 @@ We're incredibly proud that our home provided comfort and warmth to the Jones-Gu
 **Academy Award Nominations:** 4 (Best Picture, Best Adapted Screenplay, Best Cinematography, Best Original Song)
 **Filmed:** Eastern Washington, April 2024
 
-**Stay where the stars stayed.** [Book Manito Bungalow](https://www.vrbo.com/3803640) and experience the same South Hill charm that Felicity Jones called home.
+**Stay where the stars stayed.** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). and experience the same South Hill charm that Felicity Jones called home.

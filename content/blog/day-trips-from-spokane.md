@@ -59,4 +59,4 @@ Home to Washington State University (Pullman) and the University of Idaho (Mosco
 
 Every one of these day trips starts and ends at [Manito Bungalow](/). Come back to a real home after a day of adventure — cook dinner in the full kitchen, throw your gear in the washer, and relax on the porch while planning tomorrow's trip.
 
-**Explore the Inland Northwest from the South Hill.** [Book Manito Bungalow](https://www.vrbo.com/3803640).
+**Explore the Inland Northwest from the South Hill.** [Book Manito Bungalow](/#book). Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625).

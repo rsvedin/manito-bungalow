@@ -39,4 +39,4 @@ Brick West has one of the more active events calendars in Spokane's brewery scen
 
 Brick West is part of our [best brewpubs in Spokane](/blog/best-brewpubs-spokane) roundup. For a completely different vibe, try [Whistle Punk](/blog/whistle-punk-brewing-spokane) around the corner — it's the yin to Brick West's yang.
 
-**Exploring Spokane's brewery scene?** [Book Manito Bungalow](https://www.vrbo.com/3803640) for the perfect South Hill home base.
+**Exploring Spokane's brewery scene?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). for the perfect South Hill home base.

@@ -49,4 +49,4 @@ Game day in Spokane is an event unto itself. Here's what we recommend:
 
 At just 12–15 minutes from The Kennel, Manito Bungalow is an ideal home base for Gonzaga game weekends. With room for up to 10 guests, you can bring the whole crew. After the game, come back to a real home — not a hotel room. Relax on the porch, rehash the game over drinks in the living room, or take a morning walk through [Manito Park](/blog/manito-park-guide) to recover.
 
-**Planning a trip for Gonzaga basketball?** [Book Manito Bungalow](https://www.vrbo.com/3803640) — the best place to stay for the ultimate Zags experience.
+**Planning a trip for Gonzaga basketball?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). — the best place to stay for the ultimate Zags experience.

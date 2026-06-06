@@ -87,4 +87,4 @@ Spokane hosts world-class events throughout the year: [Bloomsday](/blog/bloomsda
 
 ---
 
-**Planning a Spokane trip?** [Book Manito Bungalow](https://www.vrbo.com/3803640) — a restored 1920s craftsman one block from Manito Park, sleeping up to 10 guests. The perfect home base for exploring everything Spokane has to offer.
+**Planning a Spokane trip?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). — a restored 1920s craftsman one block from Manito Park, sleeping up to 10 guests. The perfect home base for exploring everything Spokane has to offer.

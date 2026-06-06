@@ -43,4 +43,4 @@ Stay up to date on tap releases and events:
 
 Perry Street is one of the six breweries we recommend in our [best brewpubs guide](/blog/best-brewpubs-spokane). After you've explored Perry, check out [Lumberbeard](/blog/lumberbeard-brewing-spokane) or [No-Li Brewhouse](/blog/no-li-brewhouse-spokane) for completely different vibes.
 
-**Ready for a Spokane beer tour?** [Book Manito Bungalow](https://www.vrbo.com/3803640) and you'll be within easy reach of all of them.
+**Ready for a Spokane beer tour?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). and you'll be within easy reach of all of them.

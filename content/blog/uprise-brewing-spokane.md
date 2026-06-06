@@ -41,4 +41,4 @@ Uprise sits at the edge of Kendall Yards, right near the Centennial Trail. In go
 
 Uprise is one of the six breweries in our [best Spokane brewpubs](/blog/best-brewpubs-spokane) guide. If you're on a brewery crawl, [Whistle Punk](/blog/whistle-punk-brewing-spokane) and [Brick West](/blog/brick-west-brewing-spokane) are both nearby in the downtown area.
 
-**Planning a Spokane trip?** [Book Manito Bungalow](https://www.vrbo.com/3803640) — your South Hill home base for exploring the best beer in the Inland Northwest.
+**Planning a Spokane trip?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). — your South Hill home base for exploring the best beer in the Inland Northwest.

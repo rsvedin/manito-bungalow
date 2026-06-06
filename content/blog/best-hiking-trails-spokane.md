@@ -66,4 +66,4 @@ One of the best parts of hiking near Spokane is what comes after. Head back to t
 
 For more trail information, visit the [Washington Trails Association](https://www.wta.org/go-outside/seasonal-hikes/year-round-destinations/hikes-30-minutes-from-spokane).
 
-**Planning an outdoor adventure in Spokane?** [Book Manito Bungalow](https://www.vrbo.com/3803640) — your perfect home base on the South Hill.
+**Planning an outdoor adventure in Spokane?** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). — your perfect home base on the South Hill.

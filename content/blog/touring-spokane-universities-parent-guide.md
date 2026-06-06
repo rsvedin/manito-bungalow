@@ -57,4 +57,4 @@ WSU's Spokane campus focuses on health sciences and is located in the University
 - **Eat like a local:** Take your student to [Wooden City](/blog/wooden-city-restaurant-spokane) or [Rüt](/blog/rut-vegan-restaurant-spokane) to show them the dining scene they'd get to enjoy.
 - **Explore the city:** Walk through [Manito Park](/blog/manito-park-guide), visit downtown, catch a [Zags game](/blog/gonzaga-basketball-spokane) if the timing works. Let your student fall in love with Spokane, not just a campus.
 
-**Bring the whole family for campus visits.** [Book Manito Bungalow](https://www.vrbo.com/3803640) — 3 bedrooms, sleeps 10, and perfectly located for touring every university in the area.
+**Bring the whole family for campus visits.** [Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). — 3 bedrooms, sleeps 10, and perfectly located for touring every university in the area.

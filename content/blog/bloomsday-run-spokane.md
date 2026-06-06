@@ -35,4 +35,4 @@ Bloomsday weekend is one of the biggest travel weekends of the year in Spokane. 
 
 Our location on the South Hill means you're close to the race course without being in the traffic chaos of downtown. After the race, walk one block to [Manito Park](/blog/manito-park-guide) for a cool-down stroll, or head to [Lumberbeard Brewing](/blog/lumberbeard-brewing-spokane) for a well-earned celebration beer.
 
-This is the 50th anniversary — it's going to be a special one. **[Book Manito Bungalow](https://www.vrbo.com/3803640) now before Bloomsday weekend fills up.**
+This is the 50th anniversary — it's going to be a special one. **[Book Manito Bungalow](/#book) Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625). now before Bloomsday weekend fills up.**

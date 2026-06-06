@@ -53,4 +53,4 @@ Being one block from Manito Park means your mornings can start with a walk throu
 
 When you stay at [Manito Bungalow](/), the park is practically your backyard. Our guests consistently tell us it's their favorite thing about the location — and once you experience it, you'll understand why.
 
-**Ready to wake up one block from Spokane's most beautiful park?** [Check availability at Manito Bungalow](https://www.vrbo.com/3803640).
+**Ready to wake up one block from Spokane's most beautiful park?** [Check availability at Manito Bungalow](/#book). Prefer a platform? Find us on [VRBO](https://www.vrbo.com/3803640) or [Airbnb](https://www.airbnb.com/rooms/1049335217620947625).
