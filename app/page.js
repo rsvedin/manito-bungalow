@@ -49,8 +49,8 @@ export default function Home() {
           <div className="hero-led-copy">
             <p className="hero-eyebrow">South Hill · Spokane, Washington</p>
             <h1 className="hero-headline">A historic bungalow,<br/><em>one block</em> from Manito Park.</h1>
-            <p className="hero-sub">A restored 1911 craftsman for families, friend groups, and dogs. Two living rooms, a fully stocked kitchen, and a fenced backyard.</p>
-            <p className="hero-proof">★ {rating.overall} · {rating.count} reviews &nbsp;·&nbsp; Guest Favorite on Airbnb &nbsp;·&nbsp; 9.6/10 on VRBO</p>
+            <p className="hero-sub">Sleeps 10 &nbsp;·&nbsp; Pet friendly &nbsp;·&nbsp; Restored 1911 craftsman</p>
+            <p className="hero-proof">★ {rating.overall} · {rating.count} reviews &nbsp;·&nbsp; Guest Favorite on Airbnb</p>
             <div className="hero-ctas">
               <a href="#book" className="hero-cta">Check Availability</a>
               <a href="/photos" className="hero-cta-secondary">View Photos</a>
