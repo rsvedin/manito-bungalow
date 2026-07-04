@@ -2,7 +2,7 @@
 title: "The Best Restaurants Near Manito Bungalow"
 date: "2024-02-20"
 excerpt: "From craft gastropubs to fine dining, here are the South Hill restaurants we recommend to every guest."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/027be553.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-living-room-cover.jpg"
 tags: ["Spokane", "South Hill", "Restaurants", "Food", "Craft Beer"]
 ---
 

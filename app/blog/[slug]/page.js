@@ -14,6 +14,16 @@ export async function generateMetadata({ params }) {
   return {
     title: `${post.title} — Manito Bungalow`,
     description: post.excerpt || '',
+    alternates: { canonical: `/blog/${slug}` },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt || '',
+      url: `/blog/${slug}`,
+      siteName: 'Manito Bungalow',
+      type: 'article',
+      publishedTime: post.date,
+      ...(post.coverImage ? { images: [{ url: post.coverImage }] } : {}),
+    },
   };
 }
 
@@ -21,14 +31,27 @@ export default async function BlogPost({ params }) {
   const { slug } = await params;
   const post = await getPostBySlug(slug);
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt || '',
+    datePublished: post.date,
+    url: `https://manitobungalow.com/blog/${slug}`,
+    ...(post.coverImage ? { image: post.coverImage } : {}),
+    author: { '@type': 'Organization', name: 'Manito Bungalow' },
+    publisher: { '@type': 'Organization', name: 'Manito Bungalow', url: 'https://manitobungalow.com' },
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Nav />
       <main id="main-content" className="blog-page">
         <article className="blog-article container">
           <div className="blog-article-header">
             <Link href="/blog" className="blog-back">&larr; All Posts</Link>
-            <time className="blog-card-date">{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+            <time className="blog-card-date" dateTime={post.date}>{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}</time>
             <h1 className="blog-article-title">{post.title}</h1>
             {post.tags && post.tags.length > 0 && (
               <div className="blog-article-tags">
@@ -56,7 +79,7 @@ export default async function BlogPost({ params }) {
       <footer id="footer">
         <div className="container">
           <div className="footer-bottom">
-            <p className="footer-copy">&copy; 2025 Manito Bungalow &middot; Spokane, Washington</p>
+            <p className="footer-copy">&copy; {new Date().getFullYear()} Manito Bungalow &middot; Spokane, Washington</p>
             <div className="footer-legal">
               <Link href="/">Home</Link>
               <Link href="/blog">Blog</Link>

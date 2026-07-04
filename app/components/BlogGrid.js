@@ -84,7 +84,7 @@ export default function BlogGrid({ posts }) {
               </div>
             )}
             <div className="blog-card-body">
-              <time className="blog-card-date">{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+              <time className="blog-card-date" dateTime={post.date}>{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}</time>
               <h2 className="blog-card-title">{post.title}</h2>
               {post.excerpt && <p className="blog-card-excerpt">{post.excerpt}</p>}
               {post.tags && post.tags.length > 0 && (

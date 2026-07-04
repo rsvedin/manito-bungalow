@@ -2,7 +2,7 @@
 title: "Top 15 Spokane Attractions — A Visitor's Guide"
 date: "2025-08-08"
 excerpt: "From Spokane Falls to Manito Park, here are the top 15 things to do in Spokane. A local's guide for visitors staying at Manito Bungalow on the South Hill."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Travel Tips", "Family", "Outdoors", "Downtown"]
 ---
 

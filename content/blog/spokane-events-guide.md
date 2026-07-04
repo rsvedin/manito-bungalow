@@ -2,7 +2,7 @@
 title: "A Guide to Spokane's Best Annual Events"
 date: "2024-03-08"
 excerpt: "From Bloomsday to Pig Out in the Park, Spokane's event calendar is packed. Here's what to plan your trip around."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/fd88d08c.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-dining-room-cover.jpg"
 tags: ["Spokane", "Events", "Summer", "Family", "Downtown"]
 ---
 

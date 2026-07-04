@@ -2,7 +2,7 @@
 title: "Train Dreams Was Filmed in Spokane — And the Star Stayed at Our House"
 date: "2025-12-15"
 excerpt: "Netflix's Train Dreams was filmed in Spokane in 2024. Felicity Jones, her husband & kids stayed at Manito Bungalow during production. 4 Oscar nominations."
-coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-neECt9ss7JrFIfxmC-KTlKDyfhfk6UYFA&s"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Film", "South Hill", "History"]
 ---
 

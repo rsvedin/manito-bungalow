@@ -2,7 +2,7 @@
 title: "Best Hiking Trails Near Spokane — A Guide from Manito Bungalow"
 date: "2024-05-12"
 excerpt: "Discover the best hiking trails near Spokane, WA — from easy family walks to challenging summit hikes. All within 30 minutes of Manito Bungalow."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Outdoors", "Family", "Fitness", "Summer"]
 ---
 

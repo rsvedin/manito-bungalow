@@ -2,7 +2,7 @@
 title: "Wooden City — Spokane's Most Exciting Restaurant"
 date: "2024-10-30"
 excerpt: "Wooden City in downtown Spokane serves inventive New American cuisine with wood-fired pizzas and gourmet burgers. 10 minutes from Manito Bungalow. Reserve ahead."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Food", "Restaurants", "Downtown"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Best Day Trips from Spokane — Lakes, Mountains & Small Towns"
 date: "2025-03-18"
 excerpt: "Discover the best day trips from Spokane: Coeur d'Alene, Silverwood, Schweitzer, Palouse Falls & more. All within 2 hours of Manito Bungalow."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Travel Tips", "Outdoors", "Family", "Summer"]
 ---
 

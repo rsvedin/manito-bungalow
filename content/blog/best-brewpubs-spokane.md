@@ -2,7 +2,7 @@
 title: "The Best Brewpubs in Spokane — A Local's Guide from South Hill"
 date: "2024-05-08"
 excerpt: "Discover the best brewpubs in Spokane including No-Li, Lumberbeard, Brick West, Perry Street & more. Trivia nights, food menus, and distance from Manito Bungalow."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Craft Beer", "Breweries", "South Hill", "Perry District"]
 ---
 

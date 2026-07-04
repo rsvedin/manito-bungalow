@@ -322,11 +322,11 @@ export default function Home() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p className="footer-copy">© 2026 Manito Bungalow · Spokane, Washington</p>
+            <p className="footer-copy">© {new Date().getFullYear()} Manito Bungalow · Spokane, Washington</p>
             <div className="footer-legal">
-              <a href="#">Privacy</a>
-              <a href="#">House Rules</a>
-              <a href="#">Contact</a>
+              <a href="/privacy">Privacy</a>
+              <a href="/house-rules">House Rules</a>
+              <a href="mailto:rsvedin@gmail.com">Contact</a>
             </div>
           </div>
         </div>

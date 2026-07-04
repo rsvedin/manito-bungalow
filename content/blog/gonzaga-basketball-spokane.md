@@ -2,7 +2,7 @@
 title: "Gonzaga Basketball in Spokane — Stay Close to the Action"
 date: "2025-11-20"
 excerpt: "Gonzaga basketball is a Spokane institution. Stay at Manito Bungalow, 15 minutes from McCarthey Athletic Center, for the ultimate Zags game-day experience."
-coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqbdoN7dtbKxbp7tv7aZaS2Idbfn82uh5JAA&s"
+coverImage: "/blog/gonzaga-university-entrance.jpg"
 tags: ["Spokane", "Sports", "Winter", "Events", "Downtown"]
 ---
 

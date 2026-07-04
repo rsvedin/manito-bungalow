@@ -2,7 +2,7 @@
 title: "Remedy Kitchen & Tavern — South Hill's Neighborhood Favorite"
 date: "2024-05-28"
 excerpt: "Remedy Kitchen & Tavern on Grand Blvd serves elevated pub fare, craft cocktails, and 24 taps with a rooftop patio. A 5-minute walk from Manito Bungalow in Spokane."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "South Hill", "Restaurants", "Food", "Craft Beer"]
 ---
 

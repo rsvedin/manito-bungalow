@@ -2,7 +2,7 @@
 title: "Graduation Season in Spokane — A Guide for Visiting Families"
 date: "2025-10-22"
 excerpt: "Visiting Spokane for graduation at Gonzaga, Whitworth, EWU or WSU? Manito Bungalow sleeps 10 and is perfect for families celebrating. Dates, tips & more."
-coverImage: "https://gonzaga.azureedge.net/-/media/Website/Images/Wide-Header/Commencement/wide-commencement-2025-banner.ashx?rev=1c58f46770af4c248afd6c72218ae7ed&h=600&w=1440&la=en&hash=5A6AB9B7BCFC5E2A47658C3549623023"
+coverImage: "/blog/gonzaga-university-entrance.jpg"
 tags: ["Spokane", "Events", "Family", "Travel Tips"]
 ---
 

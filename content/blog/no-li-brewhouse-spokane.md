@@ -2,7 +2,7 @@
 title: "No-Li Brewhouse — Spokane's Flagship Brewery on the River"
 date: "2024-09-06"
 excerpt: "No-Li Brewhouse sits on the Spokane River with award-winning craft beer and a stunning patio. 12 minutes from Manito Bungalow. Spokane's flagship brewery."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Craft Beer", "Breweries", "Outdoors", "Downtown"]
 ---
 

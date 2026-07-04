@@ -41,4 +41,17 @@ total += await emit(HERO_SRC, 'hero-front-of-house', HERO_WIDTHS, OUT);
 // Image-led hero uses the living room shot at full-bleed widths.
 total += await emit('assets/images/listing/living-room-1-01.jpg', 'hero-living-room', HERO_WIDTHS, OUT);
 
+// Social-share image: 1200x630 JPEG (og:image — JPEG for crawler compatibility).
+{
+  const dest = path.join(OUT, 'og-home.jpg');
+  const stat = fs.statSync(HERO_SRC);
+  if (!fs.existsSync(dest) || fs.statSync(dest).mtimeMs <= stat.mtimeMs) {
+    await sharp(HERO_SRC)
+      .resize({ width: 1200, height: 630, fit: 'cover', position: 'attention' })
+      .jpeg({ quality: 82 })
+      .toFile(dest);
+    total++;
+  }
+}
+
 console.log(`build-images: ${total} file(s) written`);

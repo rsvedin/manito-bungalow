@@ -2,7 +2,7 @@
 title: "Spokane Farmers Markets — Fresh & Local Every Weekend"
 date: "2025-04-22"
 excerpt: "Spokane's best farmers markets: South Perry Thursday Market and the Saturday Spokane Farmers Market. Fresh produce, local vendors, and community vibes near Manito Bungalow."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Food", "Summer", "Perry District", "Family"]
 ---
 

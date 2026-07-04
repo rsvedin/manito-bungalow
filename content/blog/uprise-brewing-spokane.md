@@ -2,7 +2,7 @@
 title: "Uprise Brewing — Fresh Energy in Spokane's Beer Scene"
 date: "2024-08-14"
 excerpt: "Uprise Brewing in Spokane's Kendall Yards neighborhood serves award-winning craft beer, scratch-made food, and Centennial Trail vibes. 12 minutes from Manito Bungalow."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Craft Beer", "Breweries", "Food", "Downtown"]
 ---
 

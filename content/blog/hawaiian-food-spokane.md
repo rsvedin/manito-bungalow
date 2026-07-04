@@ -2,7 +2,7 @@
 title: "Best Hawaiian Food in Spokane — Aloha Island Grill"
 date: "2024-11-18"
 excerpt: "Craving Hawaiian food in Spokane? Aloha Island Grill serves authentic plate lunches, poke bowls & island favorites. A local's guide from Manito Bungalow."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Food", "Restaurants", "Family"]
 ---
 

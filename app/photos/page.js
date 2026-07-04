@@ -5,6 +5,12 @@ import { listing } from '../../lib/listing';
 export const metadata = {
   title: 'Photos — Manito Bungalow',
   description: `All ${listing.photos.length} photos of Manito Bungalow, room by room — a restored 1911 craftsman bungalow one block from Manito Park in Spokane, WA.`,
+  alternates: { canonical: '/photos' },
+  openGraph: {
+    title: 'Photos — Manito Bungalow',
+    description: `All ${listing.photos.length} photos of Manito Bungalow, room by room.`,
+    url: '/photos',
+  },
 };
 
 export default function PhotosPage() {

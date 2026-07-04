@@ -2,7 +2,7 @@
 title: "The Union Fitness Studio — Stay Active During Your Spokane Trip"
 date: "2024-12-12"
 excerpt: "The Union is Spokane's best fitness studio offering spin, yoga, meditation & strength classes. Drop-in classes available. Minutes from Manito Bungalow."
-coverImage: "https://media.vrbo.com/lodging/102000000/101540000/101537200/101537115/0622d9e8.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+coverImage: "/blog/bungalow-exterior-cover.jpg"
 tags: ["Spokane", "Fitness", "South Hill", "Travel Tips"]
 ---
 

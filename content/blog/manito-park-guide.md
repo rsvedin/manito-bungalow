@@ -2,7 +2,7 @@
 title: "Your Complete Guide to Manito Park in Spokane"
 date: "2024-04-15"
 excerpt: "Manito Park is just one block from Manito Bungalow. Explore 90 acres of gardens, a Japanese garden, conservatory & more. Your guide to Spokane's crown jewel."
-coverImage: "https://static.spokanecity.org/photos/2013/08/28/duncan-garden-manito-park/16x3/Full/duncan-garden-manito-park.jpg"
+coverImage: "/blog/bungalow-backyard-cover.jpg"
 tags: ["Spokane", "South Hill", "Manito Park", "Family", "Outdoors"]
 ---
 

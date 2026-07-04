@@ -7,6 +7,12 @@ import Link from 'next/link';
 export const metadata = {
   title: 'Blog — Manito Bungalow',
   description: 'Stories, guides, and tips for your stay at Manito Bungalow in Spokane, WA.',
+  alternates: { canonical: '/blog' },
+  openGraph: {
+    title: 'Blog — Manito Bungalow',
+    description: 'Stories, guides, and tips for your stay at Manito Bungalow in Spokane, WA.',
+    url: '/blog',
+  },
 };
 
 export default function BlogIndex() {
@@ -31,7 +37,7 @@ export default function BlogIndex() {
       <footer id="footer">
         <div className="container">
           <div className="footer-bottom">
-            <p className="footer-copy">&copy; 2025 Manito Bungalow &middot; Spokane, Washington</p>
+            <p className="footer-copy">&copy; {new Date().getFullYear()} Manito Bungalow &middot; Spokane, Washington</p>
             <div className="footer-legal">
               <Link href="/">Home</Link>
               <Link href="/blog">Blog</Link>
